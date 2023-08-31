@@ -57,8 +57,8 @@ const Landing = () => {
             before!
           </p>
           <div style={{ display: "flex", gap: "15px" }}>
-            <a href="">EXPLORE HACKATHON</a>
-            <a href="">APPLY NOW</a>
+            <a href="/sandshores">EXPLORE HACKATHON</a>
+            <a href="/">APPLY NOW</a>
           </div>
         </div>
       </div>
