@@ -16,7 +16,7 @@ function App() {
       element: <Home />,
     },
     {
-      path: "/gtasandshore",
+      path: "/sandshores",
       element: <GTASandshore />,
     },
   ]);
