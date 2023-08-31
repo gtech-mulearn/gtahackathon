@@ -1,0 +1,40 @@
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  z-index: 9000;
+  
+}
+.navLogoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 2vw;
+  padding: 20px 0px;
+}
+
+.navigationContentWrapper {
+  display: flex;
+  gap: 20px;
+}
+.atagWrapper {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navRegisterButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-right: 2vw;
+}
