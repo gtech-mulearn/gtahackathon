@@ -22,7 +22,7 @@ const Home = () => {
         <img src={fivestar} alt="" />
         <div
           class="apply-button"
-          data-hackathon-slug="gtasandshores"
+          data-hackathon-slug="gta-sandshores"
           data-button-theme="dark-inverted"
           style={{ height: "44px", width: "312px" }}
         ></div>
