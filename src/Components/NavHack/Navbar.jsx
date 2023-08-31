@@ -34,7 +34,7 @@ const Navbar = () => {
       <div
         className={styles.navbarWrapper}
         style={{
-          background: navbg ? "rgba(255,255,255,0.4)" : "rgba(0, 0, 0, 0.85)",
+          background: navbg ? "rgba(0,0,0,0.6)" : "rgba(0, 0, 0, 0.85)",
         }}
       >
         <a href="/" className={styles.navLogoWrapper}>

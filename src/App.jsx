@@ -16,6 +16,10 @@ function App() {
       element: <Home />,
     },
     {
+      path: "/codestorm",
+      element: <GTACodestorm />,
+    },
+    {
       path: "/sandshores",
       element: <GTASandshore />,
     },
