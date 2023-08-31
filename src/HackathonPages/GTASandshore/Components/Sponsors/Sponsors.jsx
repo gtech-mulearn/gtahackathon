@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Sponsors.module.css";
 
-import twinkle from "./assets/singlestar.png";
+import twinkle from "../../../../assets/images/singlestar.png";
 import solana from "./assets/Solana.png";
 import filecoin from "./assets/filecoin.png";
 import devfolio from "./assets/devfolio.png";

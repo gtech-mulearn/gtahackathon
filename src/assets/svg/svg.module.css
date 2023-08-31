@@ -1,0 +1,15 @@
+.pinkShade {
+  width: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+  .pinkShade {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 530px){
+   .pinkShade {
+    width: 160px;
+  }
+}
