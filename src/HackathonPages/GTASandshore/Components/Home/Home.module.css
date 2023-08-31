@@ -9,13 +9,12 @@
 .homelogodevfolio {
   display: flex;
   flex-direction: column;
-  width: 330px;
+  width: 320px;
   align-items: center;
   position: absolute;
-  right: 10%;
-  top: 20%;
+  right: 13%;
+  top: 18%;
   z-index: 3000;
-
 }
 
 .homelogodevfolio img {
@@ -53,4 +52,17 @@
 }
 .homeFooter > div h1 {
   margin: 0;
+}
+
+@media screen and (max-width: 530px){
+  .HomeWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .homelogodevfolio {
+    margin-top: -20%;
+    position: static;
+    
+  }
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ULearn, GTALogo } from "../../../assets/svg/svg.tsx";
 import styles from "./Navbar.module.css";
 import { useReactPath } from "./path.hook.js";
+import { HiMenu } from "react-icons/hi";
 
 const Navbar = () => {
   const [openmenu, setopenmenu] = useState(false);
@@ -29,49 +30,87 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div
-      className={styles.navbarWrapper}
-      style={{
-        background: navbg ? "rgba(255,255,255,0.4)" : "rgba(0, 0, 0, 0.85)",
-      }}
-    >
-      <a href="/" className={styles.navLogoWrapper}>
-        <ULearn />
-        <div></div>
-        <GTALogo />
-      </a>
-      <div className={styles.navigationContentWrapper}>
-        {" "}
-        {navContent.map((content, i) => (
-          <a
-            href={`#${content}`}
-            key={i.toString() + content}
-            className={styles.atagWrapper}
-          >
-            <p
-              style={{
-                borderBottom: window.location.href.includes(`#${content}`)
-                  ? "4px solid #fff"
-                  : "",
-                padding: "10px 5px 20px",
-                margin: "0px 0px",
-                color: window.location.href.includes(`#${content}`)
-                  ? "#fff"
-                  : "#E8E8E8",
-                fontWeight: window.location.href.includes(`#${content}`)
-                  ? 700
-                  : 400,
-              }}
+    <>
+      <div
+        className={styles.navbarWrapper}
+        style={{
+          background: navbg ? "rgba(255,255,255,0.4)" : "rgba(0, 0, 0, 0.85)",
+        }}
+      >
+        <a href="/" className={styles.navLogoWrapper}>
+          <ULearn />
+          <div></div>
+          <GTALogo />
+        </a>
+        <div className={styles.navigationContentWrapper}>
+          {" "}
+          {navContent.map((content, i) => (
+            <a
+              href={`#${content}`}
+              key={i.toString() + content}
+              className={styles.atagWrapper}
             >
-              {content}
-            </p>
-          </a>
-        ))}
+              <p
+                style={{
+                  borderBottom: window.location.href.includes(`#${content}`)
+                    ? "4px solid #fff"
+                    : "",
+                  padding: "10px 5px 20px",
+                  margin: "0px 0px",
+                  color: window.location.href.includes(`#${content}`)
+                    ? "#fff"
+                    : "#E8E8E8",
+                  fontWeight: window.location.href.includes(`#${content}`)
+                    ? 700
+                    : 400,
+                }}
+              >
+                {content}
+              </p>
+            </a>
+          ))}
+        </div>
+        <a href="" className={styles.navRegisterButton}>
+          REGISTER
+        </a>
       </div>
-      <a href="" className={styles.navRegisterButton}>
-        REGISTER
-      </a>
-    </div>
+      <div
+        className={styles.mobileNav}
+        style={{
+          background: navbg ? "rgba(0,0,0,0.6)" : "rgba(0, 0, 0, 0.85)",
+        }}
+      >
+        <a href="/" className={styles.navLogoWrapper}>
+          <GTALogo />
+        </a>
+        <button onClick={openMenu}>
+          <HiMenu className={styles.menuHamburger} />
+        </button>
+        {openmenu && (
+          <div className={styles.menuDiv}>
+            {navContent.map((content, i) => (
+              <a href={`#${content}`} key={i.toString() + content}>
+                <p
+                  style={{
+                    color: window.location.href.includes(`#${content}`)
+                      ? "#fff"
+                      : "#E8E8E8",
+                    fontWeight: window.location.href.includes(`#${content}`)
+                      ? 700
+                      : 400,
+                  }}
+                >
+                  {content}
+                </p>
+              </a>
+            ))}
+            <a href="" className={styles.navRegisterButton}>
+              REGISTER
+            </a>
+          </div>
+        )}
+      </div>
+    </>
   );
 };
 
