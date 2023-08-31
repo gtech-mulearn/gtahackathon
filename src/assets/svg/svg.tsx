@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './svg.module.css'
 
 export const ULearn = () => {
   return (
@@ -136,3 +137,34 @@ export const GTALogo = () => {
     </svg>
   );
 };
+
+export const PinkShade = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+   
+      viewBox="0 0 320 118"
+      fill="none"
+      className={styles.pinkShade}
+    >
+      <path
+        d="M319.64 0.106689L232.922 117.107L79.933 117.107L0.640137 0.106689L160.14 0.106689L319.64 0.106689Z"
+        fill="url(#paint0_linear_223_36)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_223_36"
+          x1="160.903"
+          y1="186.121"
+          x2="160.903"
+          y2="19.7864"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FFBBE8" />
+          <stop offset="1" stop-color="#FF00A8" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+

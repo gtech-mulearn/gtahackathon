@@ -1,9 +1,10 @@
 import React, { useRef, useState } from "react";
 import styles from "./Landing.module.css";
+import "./swiper.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Navigation, Pagination } from "swiper/modules";
+
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
@@ -13,39 +14,45 @@ import hackathonLogo from "../../../assets/images/gtasandshoreLogo.png";
 const Landing = () => {
   return (
     <div className={styles.landingWrapper}>
-      <div className={styles.swiperWrapper}>
-        <Swiper
-          pagination={{
-            dynamicBullets: true,
-          }}
-          modules={[Pagination]}
-          className={styles.swiper}
-        >
-          <SwiperSlide>
-            <img src={img1} alt="" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img1} alt="" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img1} alt="" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img1} alt="" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img1} alt="" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img1} alt="" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img1} alt="" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={img1} alt="" loading="lazy" />
-          </SwiperSlide>
-        </Swiper>
+      <div className="swiper-container">
+        <div class="swiper-wrapper">
+          <Swiper
+            pagination={{
+              dynamicBullets: true,
+            }}
+           
+            className={styles.swiper}
+          >
+            <SwiperSlide>
+              <img src={img1} alt="" loading="lazy" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img1} alt="" loading="lazy" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img1} alt="" loading="lazy" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img1} alt="" loading="lazy" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img1} alt="" loading="lazy" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img1} alt="" loading="lazy" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img1} alt="" loading="lazy" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={img1} alt="" loading="lazy" />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+        <div
+          className="swiper-pagination"
+          style={{ backgroundColor: "#fff" }}
+        ></div>
       </div>
       <div className={styles.landingContentWrapper}>
         <img src={hackathonLogo} alt="" />
