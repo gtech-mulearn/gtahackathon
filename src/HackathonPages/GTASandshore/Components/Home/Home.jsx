@@ -15,17 +15,19 @@ const Home = () => {
     };
   }, []);
   return (
-    <div className={styles.HomeWrapper}>
-      <div className={styles.homelogodevfolio}>
-        <img src={sandshoreLogo} alt="" />
-        <h2>HACKATHON</h2>
-        <img src={fivestar} alt="" />
-        <div
-          class="apply-button"
-          data-hackathon-slug="gta-sandshores"
-          data-button-theme="dark-inverted"
-          style={{ height: "44px", width: "312px" }}
-        ></div>
+    <>
+      <div className={styles.HomeWrapper}>
+        <div className={styles.homelogodevfolio}>
+          <img src={sandshoreLogo} alt="" />
+          <h2 style={{ textAlign: "center" }}>HACKATHON</h2>
+          <img src={fivestar} alt="" />
+          <div
+            class="apply-button"
+            data-hackathon-slug="gta-sandshores"
+            data-button-theme="dark-inverted"
+            style={{ height: "44px", width: "312px" }}
+          ></div>
+        </div>
       </div>
       <div className={styles.homeFooter}>
         <div>
@@ -45,7 +47,7 @@ const Home = () => {
           <p>SECONDS</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

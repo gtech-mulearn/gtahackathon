@@ -1,6 +1,7 @@
 .HomeWrapper {
   width: 100%;
   height: 100vh;
+  min-height: 700px;
   background-color: rgb(15, 26, 22);
   position: relative;
   background: url("../../assets/homebg.png") center center/cover no-repeat;
@@ -11,6 +12,7 @@
   flex-direction: column;
   width: 320px;
   align-items: center;
+  justify-content: center;
   position: absolute;
   right: 13%;
   top: 18%;
@@ -33,11 +35,10 @@
   display: flex;
   background: url("../../assets/homefooterbg.png") center center/cover no-repeat;
   height: 185px;
-  position: absolute;
+  margin-top: -3.5%;
   z-index: 4000;
   width: 100%;
 
-  bottom: 0;
   color: white;
   justify-content: space-around;
   align-items: center;
@@ -53,16 +54,22 @@
 .homeFooter > div h1 {
   margin: 0;
 }
+@media screen and (max-width: 1000px) {
+    .homeFooter {
+    margin-top: -6.8%;
+  }
+}
 
-@media screen and (max-width: 530px){
-  .HomeWrapper{
+@media screen and (max-width: 530px) {
+  .HomeWrapper {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .homelogodevfolio {
-    margin-top: -20%;
     position: static;
-    
+  }
+  .homeFooter {
+    margin-top: -10%;
   }
 }
