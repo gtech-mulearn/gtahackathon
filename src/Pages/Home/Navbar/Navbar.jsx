@@ -10,7 +10,13 @@ const Navbar = () => {
     setopenmenu(!openmenu);
   }
   const path = useReactPath();
-  const navContent = ["O", "about", "team", "contact"];
+  const navContent = [
+    "Overview",
+    "The-Series",
+    "Why-GTA?",
+    "Explore",
+    "Support",
+  ];
   useEffect(() => {}, [path]);
   const changeNavBg = () => {
     window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
@@ -23,14 +29,48 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className={styles.navbarWrapper}>
-      <div className={styles.navLogoWrapper}>
+    <div
+      className={styles.navbarWrapper}
+      style={{
+        background: navbg ? "rgba(255,255,255,0.4)" : "rgba(0, 0, 0, 0.85)",
+      }}
+    >
+      <a href="/" className={styles.navLogoWrapper}>
         <ULearn />
         <div></div>
         <GTALogo />
+      </a>
+      <div className={styles.navigationContentWrapper}>
+        {" "}
+        {navContent.map((content, i) => (
+          <a
+            href={`#${content}`}
+            key={i.toString() + content}
+            className={styles.atagWrapper}
+          >
+            <p
+              style={{
+                borderBottom: window.location.href.includes(`#${content}`)
+                  ? "4px solid #fff"
+                  : "",
+                padding: "10px 5px 20px",
+                margin: "0px 0px",
+                color: window.location.href.includes(`#${content}`)
+                  ? "#fff"
+                  : "#E8E8E8",
+                fontWeight: window.location.href.includes(`#${content}`)
+                  ? 700
+                  : 400,
+              }}
+            >
+              {content}
+            </p>
+          </a>
+        ))}
       </div>
-      <div></div>
-      <div></div>
+      <a href="" className={styles.navRegisterButton}>
+        REGISTER
+      </a>
     </div>
   );
 };

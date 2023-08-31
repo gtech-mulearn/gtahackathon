@@ -1,0 +1,59 @@
+.landingWrapper {
+  width: 100%;
+  height: 100vh;
+
+  color: white;
+  position: relative;
+}
+.swiper {
+  width: 100%;
+}
+
+.swiper img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+}
+
+.landingContentWrapper {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 100%;
+
+  height: 40%;
+  min-height: 300px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 5000;
+  gap: 15%;
+}
+.landingContentWrapper img {
+  height: 100%;
+  object-fit: contain;
+}
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contentWrapper h3 {
+  font-size: 50px;
+  margin: 0;
+  line-height: 1;
+}
+.contentWrapper p {
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.contentWrapper a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1.5px solid #fff;
+}
