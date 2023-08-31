@@ -4,7 +4,7 @@ import NavHack from "../../Components/NavHack/Navbar";
 import About from "./Components/About/About"
 import Sponsors from "./Components/Sponsors/Sponsors";
 import Journey from "./Components/Journey/Journey";
-import Faq from "./Components/Faq/Faq";
+import Faq from "./Components/Faq/FaqContent";
 import Location from "./Components/Location/Location";
 import Footer from "../../Components/Footer/Footer";
 import styles from "./GTASandshore.module.css";
