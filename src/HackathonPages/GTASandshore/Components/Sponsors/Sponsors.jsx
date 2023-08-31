@@ -22,7 +22,7 @@ const Sponsors = () => {
           <div className={styles.divSponsorsTire}>
             <div className={styles.companySponsorsDiv}>
               <a href="https://fundesign.netlify.app/">
-                <img src={fundesign} alt="FUN DESIGN" />
+                {/* <img src={fundesign} alt="FUN DESIGN" /> */}
               </a>
             </div>
             <div className={styles.twinkleSponsors}>
