@@ -6,6 +6,7 @@ const GTASandshore = () => {
   return (
     <div>
       <NavHack />
+      <Home />
     </div>
   );
 };
