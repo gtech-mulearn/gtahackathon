@@ -23,6 +23,7 @@
 }
 .Container .header {
   display: flex;
+  gap: 10px;
   width: 100%;
   justify-content: space-between;
 }
@@ -30,4 +31,23 @@
 .Container h1{
     font-size: 25px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 850px){
+.Container h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Container p{
+    font-size: 16px;
+
+}
+}@media screen and (max-width: 500px){
+.Container h1{
+    font-size: 18px;
+}
+.Container p{
+    font-size: 14px;
+
+}
 }

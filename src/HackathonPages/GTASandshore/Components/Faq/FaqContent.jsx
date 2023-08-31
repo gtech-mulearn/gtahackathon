@@ -26,7 +26,7 @@ const Faq1 = () => {
 
   return (
     <div className={styles.faqWrapper}>
-      <h1 style={{color:"#fff"}}>Frequently Asked Questions</h1>
+      <h1 style={{color:"#fff",textAlign:"center"}}>Frequently Asked Questions</h1>
 
       <div style={{ display: "flex", flexDirection: "column",width:"100%" }}>
         {faqArray.map(({ heading, para }, i) => (
