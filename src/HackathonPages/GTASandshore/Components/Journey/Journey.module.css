@@ -44,7 +44,6 @@
   width: fit-content;
   padding-left: 0px;
   margin-top: -40px;
-  
 }
 .contentContainer {
   display: flex;
@@ -135,15 +134,14 @@
   margin: -7px 0px -30px 563px;
   transform: rotate(-20deg);
 }
-.sticksix{
-    width: 135px;
+.sticksix {
+  width: 135px;
   margin: 22px 0px 0px 460px;
   height: 10px;
   background-color: #e5bb7d;
 }
-.phasefour{
+.phasefour {
   margin: -50px 0px 0px 230px;
-
 }
 
 @media screen and (max-width: 640px) {
@@ -153,6 +151,76 @@
 
   .mapWrapper > .background {
     min-width: 1000px;
+  }
+  .circle {
+    width: 25px;
+    height: 25px;
+  }
+  .stickone {
+    width: 7px;
+    height: 80px;
+    background-color: #e5bb7d;
+    margin: -33px 0px -33px 9px;
+  }
+
+  .sticktwo {
+    width: 30px;
+    margin: -30px 0px 0px 10px;
+    height: 70px;
+    border-left: 7px solid #e5bb7d;
+    border-bottom: 7px solid #e5bb7d;
+  }
+
+  .phaseone {
+    margin: -47px 0px 0px 40px;
+  }
+  .stickthree {
+    width: 170px;
+    margin: -33px 0px 0px 50px;
+    height: 80px;
+    border-left: 7px solid #e5bb7d;
+    border-bottom: 7px solid #e5bb7d;
+  }
+  .phasetwo {
+    margin: -50px 0px 0px 210px;
+  }
+  .stickfour {
+    width: 220px;
+    margin: -33px 0px 0px 220px;
+    height: 40px;
+    border-left: 7px solid #e5bb7d;
+    border-bottom: 7px solid #e5bb7d;
+  }
+  .stickfourSub {
+    width: 7px;
+    height: 60px;
+    background-color: #e5bb7d;
+    margin: 0px 0px -30px 440px;
+  }
+  .phasethree {
+    margin: -5px 0px 0px 218px;
+  }
+  .stickfive {
+    width: 7px;
+    margin: -33px 0px 0px 440px;
+    height: 50px;
+    background-color: #e5bb7d;
+  }
+  .stickfiveSub {
+    width: 7px;
+    height: 100px;
+    background-color: #e5bb7d;
+    margin: -7px 0px -30px 457px;
+    transform: rotate(-20deg);
+  }
+  .sticksix {
+    width: 135px;
+    margin: 22px 0px 0px 345px;
+    height: 7px;
+    background-color: #e5bb7d;
+  }
+  .phasefour {
+    margin: -50px 0px 0px 130px;
   }
 }
 @media screen and (max-width: 630px) {
