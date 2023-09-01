@@ -1,3 +1,11 @@
+.outerWrapper{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
 .FooterWrapper {
   display: flex;
   flex-direction: column;
@@ -6,6 +14,7 @@
   width: 90%;
   gap: 50px;
   margin-bottom: 30px;
+
 }
 
 .footerTop {

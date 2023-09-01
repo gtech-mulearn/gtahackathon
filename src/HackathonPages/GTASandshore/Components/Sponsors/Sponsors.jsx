@@ -14,15 +14,13 @@ const Sponsors = () => {
   return (
     <section id="sponsors">
       <div className={styles.contactsWrapper}>
-        <div className={styles.headingTeam}>
-          <p>OUR SPONSORS</p>
-        </div>
+        <h1 className={styles.headingTeam}>OUR SPONSORS</h1>
 
         <div className={styles.sponsorsLogoWrapper}>
-          <div className={styles.divSponsorsTire}>
+          {/* <div className={styles.divSponsorsTire}>
             <div className={styles.companySponsorsDiv}>
               <a href="https://fundesign.netlify.app/">
-                {/* <img src={fundesign} alt="FUN DESIGN" /> */}
+                <img src={fundesign} alt="FUN DESIGN" />
               </a>
             </div>
             <div className={styles.twinkleSponsors}>
@@ -30,8 +28,8 @@ const Sponsors = () => {
               <img src={twinkle} alt="" />
               <img src={twinkle} alt="" />
             </div>
-          </div>
-          <div className={styles.lineOne}></div>
+          </div> */}
+          {/* <div className={styles.lineOne}></div> */}
           <div className={styles.divSponsorsTire}>
             <div className={styles.companySponsorsDiv}>
               <a href="https://devfolio.co/">
