@@ -33,7 +33,7 @@ const Location = () => {
             events, Absolutely free of
             <br></br>cost, Food and Beverages,<br></br>Snacks and more.
           </p>
-          <div></div>
+          <div className={styles.lineDiv}></div>
           <p>Hackathon Goodies, Karma<br></br>Points</p>
         </div>
       </div>
