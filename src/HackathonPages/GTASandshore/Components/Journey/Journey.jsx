@@ -55,20 +55,20 @@ const Journey = () => {
             <div className={styles.stickfourSub}></div>
 
             <div className={`${styles.contentContainer} ${styles.phasethree}`}>
-              <div className={styles.circle}></div>
-              <img src={Check} alt="" />
               <div className={styles.ptagWrapper}>
                 <p>14th Oct 2023</p>
                 <p>Hack Starts</p>
-              </div>
+              </div>{" "}
+              <img src={Check} alt="" />
+              <div className={styles.circle}></div>
             </div>
             <div className={styles.stickfive}></div>
             <div className={styles.stickfiveSub}></div>
             <div className={styles.sticksix}></div>
             <div className={`${styles.contentContainer} ${styles.phasefour}`}>
               <div className={styles.ptagWrapper}>
-                <p>14th Oct 2023</p>
-                <p>Hack Starts</p>
+                <p>15th Oct 2023</p>
+                <p>Hack Ends</p>
               </div>
               <img src={Check} alt="" />
               <div className={styles.circle}></div>
