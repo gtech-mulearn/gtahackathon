@@ -262,7 +262,7 @@ export const PersonSvg = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="35"
-      height="33"
+      height="35"
       viewBox="0 0 35 33"
       fill="none"
     >
@@ -280,8 +280,8 @@ export const ComputerSvg = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="47"
-      height="36"
+      width="35"
+      height="35"
       viewBox="0 0 47 36"
       fill="none"
     >
@@ -304,8 +304,8 @@ export const CompusSvg = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="50"
-      height="51"
+      width="35"
+      height="35"
       viewBox="0 0 50 51"
       fill="none"
     >
