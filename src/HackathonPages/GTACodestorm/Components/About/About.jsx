@@ -14,8 +14,8 @@ const About = () => {
       <div className={styles.rightContainer}>
         <div>
           <img src={star} alt="" />
-          <h1>14-15</h1>
-          <h2>OCTOBER 2023</h2>
+          <h1>19-20</h1>
+          <h2>AUGUST 2023</h2>
           <PinkShade />
         </div>
         <div>

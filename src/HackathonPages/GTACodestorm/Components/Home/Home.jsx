@@ -1,22 +1,11 @@
-import React,{useEffect,useState} from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Home.module.css";
 import sandshoreLogo from "../../../../assets/images/gtasandshoreLogo.png";
 import fivestar from "../../assets/5stargrp.png";
 
 const Home = () => {
-  React.useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   // Set your target date here
-  const targetDate = new Date("2023-10-14T08:59:59");
+  const targetDate = new Date("2023-08-19T08:59:59");
 
   const [remainingTime, setRemainingTime] = useState({
     days: 0,
@@ -66,12 +55,6 @@ const Home = () => {
           <img src={sandshoreLogo} alt="" />
           <h2 style={{ textAlign: "center" }}>HACKATHON</h2>
           <img src={fivestar} alt="" />
-          <div
-            class="apply-button"
-            data-hackathon-slug="gta-sandshores"
-            data-button-theme="dark-inverted"
-            style={{ height: "44px", width: "312px" }}
-          ></div>
         </div>
       </div>
       <div className={styles.homeFooter}>

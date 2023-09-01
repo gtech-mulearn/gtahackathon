@@ -12,7 +12,7 @@ const Journey = () => {
   return (
     <div className={styles.outerWrapper}>
       <div className={styles.journeyWrapper}>
-        <h1>SandShores Journey</h1>
+        <h1>Codestorm Journey</h1>
         <div className={styles.mapWrapper}>
           <img className={styles.background} src={map} alt="" />
           <div className={styles.timelineWrapper}>
