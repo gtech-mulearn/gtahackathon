@@ -1,12 +1,18 @@
 .faqWrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
   justify-content: center;
   width: 90%;
   margin-bottom: 30px;
 }
+.faqWrapper > h1 {
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
 
 .faqContentWrapper {
   width: 100%;
@@ -28,26 +34,30 @@
   justify-content: space-between;
 }
 
-.Container h1{
-    font-size: 25px;
-    font-weight: 700;
+.Container h1 {
+  font-size: 25px;
+  font-weight: 700;
 }
 
-@media screen and (max-width: 850px){
-.Container h1{
+@media screen and (max-width: 850px) {
+  .Container h1 {
     font-size: 20px;
     font-weight: 600;
-}
-.Container p{
+  }
+  .Container p {
     font-size: 16px;
-
+  }
 }
-}@media screen and (max-width: 500px){
-.Container h1{
+@media screen and (max-width: 630px) {
+  .faqWrapper > h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Container h1 {
     font-size: 18px;
-}
-.Container p{
+  }
+  .Container p {
     font-size: 14px;
-
-}
+  }
 }
