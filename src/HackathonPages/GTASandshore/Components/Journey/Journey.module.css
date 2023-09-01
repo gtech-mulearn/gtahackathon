@@ -152,14 +152,30 @@
   .mapWrapper > .background {
     min-width: 1000px;
   }
+
+  .contentContainer {
+    gap: 10px;
+  }
   .circle {
     width: 25px;
     height: 25px;
   }
+  .contentContainer img {
+    width: 35px;
+    height: 35px;
+  }
+  .ptagWrapper p {
+    font-size: 14px;
+    padding: 10px 15px;
+    font-weight: 500;
+  }
+  .timelineWrapper {
+    margin-top: -40px;
+  }
+
   .stickone {
     width: 7px;
-    height: 80px;
-    background-color: #e5bb7d;
+    height: 110px;
     margin: -33px 0px -33px 9px;
   }
 
@@ -175,52 +191,48 @@
     margin: -47px 0px 0px 40px;
   }
   .stickthree {
-    width: 170px;
+    width: 60px;
     margin: -33px 0px 0px 50px;
-    height: 80px;
+    height: 75px;
     border-left: 7px solid #e5bb7d;
     border-bottom: 7px solid #e5bb7d;
   }
   .phasetwo {
-    margin: -50px 0px 0px 210px;
+    margin: -45px 0px 0px 100px;
   }
   .stickfour {
-    width: 220px;
-    margin: -33px 0px 0px 220px;
+    width: 175px;
+    margin: -33px 0px 0px 110px;
     height: 40px;
     border-left: 7px solid #e5bb7d;
     border-bottom: 7px solid #e5bb7d;
   }
   .stickfourSub {
     width: 7px;
-    height: 60px;
-    background-color: #e5bb7d;
-    margin: 0px 0px -30px 440px;
+    height: 100px;
+    margin: 0px 0px -30px 285px;
   }
   .phasethree {
-    margin: -5px 0px 0px 218px;
+    margin: -5px 0px 0px 105px;
   }
   .stickfive {
     width: 7px;
-    margin: -33px 0px 0px 440px;
+    margin: -33px 0px 0px 285px;
     height: 50px;
-    background-color: #e5bb7d;
   }
   .stickfiveSub {
     width: 7px;
     height: 100px;
-    background-color: #e5bb7d;
-    margin: -7px 0px -30px 457px;
-    transform: rotate(-20deg);
+    margin: -7px 0px -30px 297px;
+    transform: rotate(-15deg);
   }
   .sticksix {
-    width: 135px;
-    margin: 22px 0px 0px 345px;
+    width: 75px;
+    margin: 22px 0px 0px 235px;
     height: 7px;
-    background-color: #e5bb7d;
   }
   .phasefour {
-    margin: -50px 0px 0px 130px;
+    margin: -45px 0px 0px 40px;
   }
 }
 @media screen and (max-width: 630px) {
