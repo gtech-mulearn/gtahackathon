@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './About.module.css'
 
 import {PinkShade } from '../../../../assets/svg/svg.tsx'
-import logo from "../../../../assets/images/gtasandshoreLogo.png"
+import logo from "../../../../assets/images/gtacodestorm.png"
 import star from "../../../../assets/images/singlestar.png"
 const About = () => {
   return (

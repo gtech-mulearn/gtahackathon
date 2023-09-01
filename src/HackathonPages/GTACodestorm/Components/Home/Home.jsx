@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Home.module.css";
-import sandshoreLogo from "../../../../assets/images/gtasandshoreLogo.png";
+import sandshoreLogo from "../../../../assets/images/gtacodestorm.png";
 import fivestar from "../../assets/5stargrp.png";
 
 const Home = () => {
