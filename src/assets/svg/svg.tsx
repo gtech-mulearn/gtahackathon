@@ -166,6 +166,34 @@ export const PinkShade = () => {
     </svg>
   );
 };
+export const YellowShade = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className={styles.pinkShade}
+      viewBox="0 0 319 117"
+      fill="none"
+    >
+      <path
+        d="M319 0L232.282 117L79.2929 117L0 0L159.5 0L319 0Z"
+        fill="url(#paint0_linear_201_2)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_201_2"
+          x1="160.263"
+          y1="186.014"
+          x2="160.263"
+          y2="19.6797"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#E3BA7C" />
+          <stop offset="1" stop-color="#E5BB7D" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
 
 export const Facebook = () => {
   return (
