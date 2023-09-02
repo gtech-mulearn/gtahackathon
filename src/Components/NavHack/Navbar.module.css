@@ -7,6 +7,7 @@
   position: fixed;
   z-index: 9000;
   height: 90px;
+  overflow: hidden;
 }
 .navLogoWrapper {
   display: flex;
