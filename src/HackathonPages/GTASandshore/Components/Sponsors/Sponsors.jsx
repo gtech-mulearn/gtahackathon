@@ -21,11 +21,11 @@ const Sponsors = () => {
         <div className={styles.sponsorsLogoWrapper}>
           <div className={styles.divSponsorsTire}>
             <div className={styles.companySponsorsDiv}>
-              <a href="https://fundesign.netlify.app/" target="_blank">
+              <a href="https://knowledgemission.kerala.gov.in/" target="_blank">
                 <img src={KKem} alt="KKEM" />
               </a>{" "}
               <a href="https://mulearn.org/" target="_blank">
-                <img src={Mulearn} alt="FUN DESIGN" />
+                <img src={Mulearn} alt="mulearn" />
               </a>
             </div>
             <div className={styles.twinkleSponsors}>

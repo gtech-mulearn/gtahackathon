@@ -6,15 +6,18 @@ const Prizes = () => {
     <div className={styles.prizeWrapper}>
       <div className={styles.amountWrapper}>
         <div>
-          <h2>TITLE WINNER'S</h2>
-          <h1>10,000 INR</h1>
+          <h2>FIRST PRIZE</h2>
+          <h1 className={styles.first}>10,000 INR</h1>
         </div>
         <div>
-          <h2>RUNNER UP'S</h2>
-          <h1>5,000 INR</h1>
+          <h2>SECOND PRIZE</h2>
+          <h1 className={styles.second}>5,000 INR</h1>
         </div>
       </div>
-      <p style={{textAlign:"center"}}>** NOTE : For all track 1st and 2nd prize are available **</p>
+      <p style={{ textAlign: "center", color: "#888888" }}>
+        Note: The first and second prizes are given for each verticals
+        separately.
+      </p>
     </div>
   );
 };
