@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./Components/Home/Home";
 import NavHack from "../../Components/NavHack/Navbar";
 import About from "./Components/About/About"
+import Verticals from './Components/Verticals/Verticals'
 import Prizes from "./Components/Prizes/Prizes";
 import Journey from "./Components/Journey/Journey";
 import Sponsors from "./Components/Sponsors/Sponsors";
@@ -16,6 +17,7 @@ const GTASandshore = () => {
       <NavHack />
       <Home />
       <About />
+      <Verticals />
       <Prizes />
       <Journey />
       <Sponsors />
