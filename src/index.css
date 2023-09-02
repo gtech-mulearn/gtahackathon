@@ -2,7 +2,12 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif, "SandshoreOne", "SandshoreTwo";
+  src: local("SandshoreOne"),
+    url("./HackathonPages/GTASandshore/fonts/Helvetica.otf") format("woff");
+  src: local("SandshoreTwo"),
+    url("./HackathonPages/GTASandshore/fonts/HelveticaNormal.otf")
+      format("woff");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
@@ -18,4 +23,19 @@ code {
 ::-webkit-scrollbar {
   display: none;
   width: 0px;
+}
+
+@font-face {
+  font-family: "HelveticaLight";
+  src: local("Helvetica"),
+    url("./HackathonPages/GTASandshore/fonts/HelveticaNormal.otf")
+      format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "HelveticaBold";
+  src: local("Helvetica"),
+    url("./HackathonPages/GTASandshore/fonts/Helvetica.otf")
+      format("truetype");
+  font-weight: 900;
 }
