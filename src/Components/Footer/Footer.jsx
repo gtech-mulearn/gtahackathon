@@ -14,7 +14,10 @@ const Footer = () => {
             <a href="https://devfolio.co/code-of-conduct">Code of Conduct</a>
           </div>
           <div className={styles.FooterSocialMedia}>
-            <a href="https://www.instagram.com/gtechmulearn/" target="_blank">
+            <a
+              href="https://www.instagram.com/grand_tech_adventure/"
+              target="_blank"
+            >
               <img src={insta} alt="" />
             </a>
             <a href="https://twitter.com/GtechMulearn" target="_blank">
