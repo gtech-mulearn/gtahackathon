@@ -15,23 +15,25 @@ const Footer = () => {
             <a href="">Disclaimer</a>
           </div>
           <div className={styles.FooterSocialMedia}>
-            <a href="">
+            <a href="https://www.instagram.com/gtechmulearn/" target="_blank">
               <img src={insta} alt="" />
             </a>
-            <a href="">
+            <a href="https://twitter.com/GtechMulearn" target="_blank">
               <Twitter />
             </a>
-            <a href="">
+            <a href="https://www.youtube.com/c/mulearn" target="_blank">
               <Youtube />
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/gtechmulearn" target="_blank">
               <Facebook />
             </a>
           </div>
         </div>
         <div className={styles.footerBottom}>
           <div>
-            <a href="">µLearn Foundation</a>
+            <a href="https://mulearn.org/" target="_blank">
+              µLearn Foundation
+            </a>
           </div>
           <div className={styles.footerHackName}>
             <a href="/codestorm">CodeStorm</a>

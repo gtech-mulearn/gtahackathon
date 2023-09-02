@@ -20,7 +20,7 @@ const Journey = () => {
               <div className={styles.circle}></div>
               <PersonSvg />
               <div className={styles.ptagWrapper}>
-                <p>1st Sept 2023</p>
+                <p>XXth AUG 2023</p>
                 <p>Registration Starts</p>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Journey = () => {
               <div className={styles.circle}></div>
               <img src={Scissors} alt="" />
               <div className={styles.ptagWrapper}>
-                <p>25th Sept 2023</p>
+                <p>XXth AUG 2023</p>
                 <p>Registration Ends</p>
               </div>
             </div>
@@ -38,8 +38,8 @@ const Journey = () => {
               <div className={styles.circle}></div>
               <ComputerSvg />
               <div className={styles.ptagWrapper}>
-                <p>1st Oct 2023</p>
-                <p>Phase 1 Problem Statement</p>
+                <p>YYth AUG 2023</p>
+                <p>Registration Extend</p>
               </div>
             </div>
             <div className={styles.stickthree}></div>
@@ -47,8 +47,8 @@ const Journey = () => {
               <div className={styles.circle}></div>
               <CompusSvg />
               <div className={styles.ptagWrapper}>
-                <p>3rd Oct 2023</p>
-                <p>Phase 1 Submission</p>
+                <p>10th AUG 2023</p>
+                <p>Shortlist Announced</p>
               </div>
             </div>
             <div className={styles.stickfour}></div>
@@ -56,7 +56,7 @@ const Journey = () => {
 
             <div className={`${styles.contentContainer} ${styles.phasethree}`}>
               <div className={styles.ptagWrapper}>
-                <p>14th Oct 2023</p>
+                <p>19th AUG 2023</p>
                 <p>Hack Starts</p>
               </div>{" "}
               <img src={Check} alt="" />
@@ -67,7 +67,7 @@ const Journey = () => {
             <div className={styles.sticksix}></div>
             <div className={`${styles.contentContainer} ${styles.phasefour}`}>
               <div className={styles.ptagWrapper}>
-                <p>15th Oct 2023</p>
+                <p>20th AUG 2023</p>
                 <p>Hack Ends</p>
               </div>
               <img src={Check} alt="" />
