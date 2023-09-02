@@ -9,10 +9,9 @@ const Footer = () => {
       <div className={styles.FooterWrapper}>
         <div className={styles.footerTop}>
           <div className={styles.footerTopContent}>
-            <a href="">Explore µLearn</a>
-            <a href="">About KKEM</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Disclaimer</a>
+            <a href="https://mulearn.org/">Explore µLearn</a>
+            <a href="https://knowledgemission.kerala.gov.in/">About KKEM</a>
+            <a href="https://devfolio.co/code-of-conduct">Code of Conduct</a>
           </div>
           <div className={styles.FooterSocialMedia}>
             <a href="https://www.instagram.com/gtechmulearn/" target="_blank">
@@ -40,7 +39,7 @@ const Footer = () => {
             <a href="/sandshores">SandShores</a>
           </div>
           <div>
-            <a href="">MCMXCVIII</a>
+            <a>MCMXCVIII</a>
           </div>
         </div>
       </div>

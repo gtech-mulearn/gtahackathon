@@ -21,7 +21,7 @@ const Location = () => {
             target="_blank"
             className={styles.atagButton}
           >
-            EXPLORE
+            VISIT VENUE
           </a>
         </div>
       </div>

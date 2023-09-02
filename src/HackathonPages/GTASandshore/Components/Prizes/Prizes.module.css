@@ -8,6 +8,7 @@
   color: aliceblue;
   font-size: 15px;
   text-align: center;
+  font-family: "HelveticaBold";
 }
 .amountWrapper {
   display: flex;
@@ -19,21 +20,35 @@
 .amountWrapper h2 {
   font-size: 3vw;
   margin: 0;
-  color: #E5BB7D;
+  color: #ffffff;
 }
 .amountWrapper h1 {
   font-size: 5vw;
   margin: 0;
 }
+.first {
+  background: var(
+    --Verticals,
+    linear-gradient(180deg, #ff46c0 22.22%, #ff97dc 83.18%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.second {
+  background: linear-gradient(180deg, #fbd8a3 0%, #dab277 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media screen and (max-width: 700px) {
-.amountWrapper h2 {
-  font-size: 4vw;
-}
-.amountWrapper h1 {
-  font-size: 6vw;
-}
-.prizeWrapper {
-
-  font-size: 12px;
-}
+  .amountWrapper h2 {
+    font-size: 4vw;
+  }
+  .amountWrapper h1 {
+    font-size: 6vw;
+  }
+  .prizeWrapper {
+    font-size: 12px;
+  }
 }
