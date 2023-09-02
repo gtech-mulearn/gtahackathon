@@ -1,0 +1,26 @@
+.verticalWrapper{
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.verticalWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.contentContainer{
+    width: 100%;
+    padding: 0% 10%;
+     display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contentContainer >div{
+    width: 40%;
+}
