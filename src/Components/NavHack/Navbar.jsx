@@ -12,11 +12,11 @@ const Navbar = () => {
   }
   const path = useReactPath();
   const navContent = [
-    "Overview",
-    "The-Series",
-    "Why-GTA?",
-    "Explore",
-    "Support",
+    // "Overview",
+    // "The-Series",
+    // "Why-GTA?",
+    // "Explore",
+    // "Support",
   ];
   useEffect(() => {}, [path]);
   const changeNavBg = () => {
@@ -68,7 +68,11 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-        <a href="" className={styles.navRegisterButton}>
+        <a
+          href="https://gta-sandshores.devfolio.co/"
+          target="_blank"
+          className={styles.navRegisterButton}
+        >
           REGISTER
         </a>
       </div>
@@ -102,7 +106,11 @@ const Navbar = () => {
                 </p>
               </a>
             ))}
-            <a href="" className={styles.navRegisterButton}>
+            <a
+              href="https://gta-sandshores.devfolio.co/"
+              target="_blank"
+              className={styles.navRegisterButton}
+            >
               REGISTER
             </a>
           </div>
