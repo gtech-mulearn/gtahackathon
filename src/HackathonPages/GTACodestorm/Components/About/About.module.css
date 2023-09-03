@@ -46,7 +46,7 @@
 .rightContainer > div h1 {
   margin: 0;
   margin-top: 5px;
-  color: #E5BB7D;
+  color: #e5bb7d;
   font-weight: 700;
   font-size: 90px;
 }
@@ -82,19 +82,25 @@
   }
 }
 
-
-@media screen and (max-width: 530px){
-    .leftContainer > img {
-  width: 320px;
-}
-    .rightContainer > div img {
-  width: 70px;
-}
+@media screen and (max-width: 530px) {
+  .leftContainer > img {
+    width: 320px;
+  }
+  .leftContainer {
+    display: none;
+  }
+  .rightContainer{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .rightContainer > div img {
+    width: 75px;
+  }
   .rightContainer > div h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .rightContainer > div h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }

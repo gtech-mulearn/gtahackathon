@@ -5,23 +5,17 @@ import FAQ from "./Faq";
 const Faq1 = () => {
   const faqArray = [
     {
-      heading: "How can I become a GTA+ Member?",
-      para: "GTA+ memberships can be purchased directly from the PlayStation Store, Microsoft Store, or from within GTA Online on PlayStation 5 and Xbox",
+      heading: "What is the maximum team size allowed?",
+      para: "Teams can consist of 2 to 4 members for participation in the hackathon.",
     },
     {
-      heading: "What is included in the GTA+ Membership?",
-      para: "The maximum team size is 2 people.",
+      heading: "Is there a registration fee for the hackathon?",
+      para: "Registration is entirely free of charge. No fees are required for participation.",
     },
     {
-      heading:
-        "Once I’m a GTA+ Member, how do I claim my Membership Benefits for each Member-only Event?",
-      para: "The output product of a designathon should be a working prototype of the team's ideas and solutions to the design challenge, and it should be presented in a way that effectively communicates the team's vision and approach.",
-    },
-    {
-      heading: "How can I cancel my Subscription to GTA+?",
-      para: "You’ll be selected on the criteria of your knowledge and proficiency in design sector. We prefer you having updated Behance & Dribbble profiles.",
-    },
-   
+      heading: "Can we work on pre-existing projects?",
+      para: "No, participants are strictly required to develop a prototype within a 24-hour timeframe, based on the problem statements provided.",
+    }
   ];
 
   return (
