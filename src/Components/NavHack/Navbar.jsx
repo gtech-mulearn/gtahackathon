@@ -3,6 +3,7 @@ import { ULearn, GTALogo } from "../../assets/svg/svg.tsx";
 import styles from "./Navbar.module.css";
 import { useReactPath } from "./path.hook.js";
 import { HiMenu } from "react-icons/hi";
+import { ClickOpenSvg } from "../../assets/svg/svg.tsx";
 
 const Navbar = () => {
   const [openmenu, setopenmenu] = useState(false);
@@ -11,13 +12,7 @@ const Navbar = () => {
     setopenmenu(!openmenu);
   }
   const path = useReactPath();
-  const navContent = [
-    // "Overview",
-    // "The-Series",
-    // "Why-GTA?",
-    // "Explore",
-    // "Support",
-  ];
+  const navContent = ["Overview", "Journey", "FAQs", "Venue"];
   useEffect(() => {}, [path]);
   const changeNavBg = () => {
     window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
@@ -67,6 +62,14 @@ const Navbar = () => {
               </p>
             </a>
           ))}
+          <a
+            href="mailto:events@mulearn.in"
+            className={styles.atagWrapper}
+            style={{ marginBottom: "10px" }}
+          >
+            Support&nbsp;
+            <ClickOpenSvg />
+          </a>
         </div>
         <a
           href="https://gta-sandshores.devfolio.co/"
@@ -106,6 +109,14 @@ const Navbar = () => {
                 </p>
               </a>
             ))}
+            <a
+              href="mailto:events@mulearn.in"
+              className={styles.atagWrapper}
+            
+            >
+              Support&nbsp;
+              <ClickOpenSvg />
+            </a>
             <a
               href="https://gta-sandshores.devfolio.co/"
               target="_blank"

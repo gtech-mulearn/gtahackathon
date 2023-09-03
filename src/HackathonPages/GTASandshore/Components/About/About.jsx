@@ -6,7 +6,7 @@ import logo from "../../../../assets/images/gtasandshoreLogo.png"
 import star from "../../../../assets/images/singlestar.png"
 const About = () => {
   return (
-    <div className={styles.aboutWrapper}>
+    <div id="Overview" className={styles.aboutWrapper}>
       <div className={styles.leftContainer}>
         <img src={logo} alt="" />
         <p>HACKATHON</p>

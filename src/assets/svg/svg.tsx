@@ -342,3 +342,38 @@ export const CompusSvg = () => {
     </svg>
   );
 };
+
+
+export const ClickOpenSvg = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+   
+      className={styles.clickOpenSvg}
+      viewBox="0 0 18 17"
+      fill="none"
+    >
+      <path
+        d="M13.2349 9.1875V13.3125C13.2349 13.6771 13.09 14.0269 12.8321 14.2848C12.5742 14.5426 12.2245 14.6875 11.8599 14.6875H4.29736C3.93269 14.6875 3.58295 14.5426 3.32509 14.2848C3.06723 14.0269 2.92236 13.6771 2.92236 13.3125V5.75C2.92236 5.38533 3.06723 5.03559 3.32509 4.77773C3.58295 4.51986 3.93269 4.375 4.29736 4.375H8.42236"
+        stroke="white"
+        stroke-width="1.375"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M11.1724 2.3125H15.2974V6.4375"
+        stroke="white"
+        stroke-width="1.375"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M7.73486 9.875L15.2974 2.3125"
+        stroke="white"
+        stroke-width="1.375"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
