@@ -82,7 +82,7 @@ const Navbar = () => {
       <div
         className={styles.mobileNav}
         style={{
-          background: navbg ? "rgba(0,0,0,0.6)" : "rgba(0, 0, 0, 0.85)",
+          background: navbg ? "rgba(0,0,0,0.67)" : "rgba(0, 0, 0, 0.85)",
         }}
       >
         <a href="/" className={styles.navLogoWrapper}>

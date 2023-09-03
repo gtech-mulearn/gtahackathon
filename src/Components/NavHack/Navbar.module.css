@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(5px);
+
   position: fixed;
   z-index: 9000;
   height: 75px;
@@ -20,7 +21,7 @@
 .navLogoWrapper > div {
   width: 2px;
   height: 30px;
-  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
 }
 .navigationContentWrapper {
   display: flex;
@@ -38,7 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 10px ;
+  padding: 5px 10px;
   border: 2px solid #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -47,6 +48,7 @@
 }
 .mobileNav {
   display: none;
+  backdrop-filter: blur(5px);
 }
 button {
   background-color: transparent;
@@ -56,6 +58,8 @@ button {
   position: fixed;
   top: 100px;
   background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+
   height: 88vh;
   width: 100vw;
   left: 0;
@@ -70,7 +74,6 @@ button {
   color: #fff;
   font-size: 30px;
   text-transform: uppercase;
-
 }
 .menuDiv a p {
   margin: 0px;
@@ -95,7 +98,7 @@ button {
     color: white;
     font-size: 40px;
   }
-  .navRegisterButton{
+  .navRegisterButton {
     margin: 0;
   }
 }

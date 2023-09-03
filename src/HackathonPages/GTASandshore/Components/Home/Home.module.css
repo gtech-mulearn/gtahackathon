@@ -88,7 +88,7 @@
 }
 @media screen and (max-height: 700px) {
   .HomeWrapper {
-    min-height: 100vh;
+    min-height: 90vh;
   }
   .homelogodevfolio {
     margin-top: -35px;
