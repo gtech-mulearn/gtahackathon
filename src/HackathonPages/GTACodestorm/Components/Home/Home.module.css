@@ -4,18 +4,19 @@
   min-height: 700px;
   background-color: rgb(15, 26, 22);
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: url("../../assets/homebg.png") center center/cover no-repeat;
 }
 
 .homelogodevfolio {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 30%;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  right: 13%;
-  top: 18%;
+
   z-index: 3000;
 }
 
@@ -25,10 +26,10 @@
 
 .homelogodevfolio h2 {
   margin-top: -10px;
-  letter-spacing: 16px;
+  letter-spacing: 1.6vw;
   color: rgba(255, 255, 255, 0.4);
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 2vw;
+  font-weight: 600;
 }
 
 .homeFooter {
@@ -55,8 +56,11 @@
   margin: 0;
 }
 @media screen and (max-width: 1000px) {
-    .homeFooter {
+  .homeFooter {
     margin-top: -6.8%;
+  }
+  .homelogodevfolio {
+    width: 60%;
   }
 }
 
@@ -67,7 +71,8 @@
     justify-content: center;
   }
   .homelogodevfolio {
-    position: static;
+    width: 80%;
+    
   }
   .homeFooter {
     margin-top: -10%;

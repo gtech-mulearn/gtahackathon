@@ -57,24 +57,7 @@ const Home = () => {
           <img src={fivestar} alt="" />
         </div>
       </div>
-      <div className={styles.homeFooter}>
-        <div>
-          <h1>{remainingTime.days}</h1>
-          <p>DAYS</p>
-        </div>
-        <div>
-          <h1>{remainingTime.hours}</h1>
-          <p>HOURS</p>
-        </div>
-        <div>
-          <h1>{remainingTime.minutes}</h1>
-          <p>MINUTES</p>
-        </div>
-        <div>
-          <h1>{remainingTime.seconds}</h1>
-          <p>SECONDS</p>
-        </div>
-      </div>
+ 
     </>
   );
 };

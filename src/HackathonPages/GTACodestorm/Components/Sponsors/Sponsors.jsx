@@ -34,38 +34,8 @@ const Sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
           </div>
-          <div className={styles.lineThree}></div>
-          <div className={styles.divSponsorsTire}>
-            <div className={styles.companySponsorsDiv}>
-              <a href="https://devfolio.co/" target="_blank">
-                <img src={devfolio} alt="DEVFOLIO LOGO" />
-              </a>
-              <a href="https://polygon.technology/" target="_blank">
-                <img src={polygon} alt="POLYGON LOGO" />
-              </a>
-            </div>
-            <div className={styles.twinkleSponsors}>
-              <img src={twinkle} alt="" />
-              <img src={twinkle} alt="" />
-            </div>
-          </div>
-          <div className={styles.lineThree}></div>
-          <div className={styles.divSponsorsTire}>
-            <div className={styles.companySponsorsDiv}>
-              <a href="https://replit.com" target="_blank">
-                <img src={replict} alt="REPLIT LOGO" />
-              </a>
-              <a href="https://solana.com" target="_blank">
-                <img src={solana} alt="SOLANA LOGO" />
-              </a>
-              <a href="https://filecoin.io" target="_blank">
-                <img src={filecoin} alt="FILECOIN LOGO" />
-              </a>
-            </div>
-            <div className={styles.twinkleSponsors}>
-              <img src={twinkle} alt="" />
-            </div>
-          </div>
+          
+          
         </div>
       </div>
     </section>

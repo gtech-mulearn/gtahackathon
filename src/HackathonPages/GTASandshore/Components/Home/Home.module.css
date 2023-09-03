@@ -4,6 +4,7 @@
   min-height: 700px;
   background-color: rgb(15, 26, 22);
   position: relative;
+  overflow: hidden;
   background: url("../../assets/homebg.png") center center/cover no-repeat;
 }
 
@@ -39,11 +40,10 @@
   margin-top: 0%;
   z-index: 4000;
   width: 100%;
-  position: absolute;
+  margin-top: -180px;
   color: white;
   justify-content: space-around;
   align-items: center;
-  bottom: 0;
 }
 
 .homeFooter > div {
@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: 1000px) {
   .homeFooter {
-    margin-top: -6.8%;
+    margin-top: -180px;
   }
 }
 
@@ -72,16 +72,22 @@
     position: static;
   }
   .homeFooter {
-    margin-top: -10%;
+   margin-top: -180px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .HomeWrapper {
+    min-height: 100vh;
   }
 }
 @media screen and (max-height: 780px) {
   .homeFooter {
     height: 135px;
+    margin-top: -130px;
   }
 }
 @media screen and (max-height: 700px) {
-  .HomeWrapper{
+  .HomeWrapper {
     min-height: 100vh;
   }
   .homelogodevfolio {
