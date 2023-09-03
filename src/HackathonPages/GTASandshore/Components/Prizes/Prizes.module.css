@@ -4,11 +4,12 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 20px;
+  gap: 10px;
   color: aliceblue;
   font-size: 15px;
   text-align: center;
   font-family: "HelveticaBold";
+  margin-bottom: 0vh;
 }
 .amountWrapper {
   display: flex;

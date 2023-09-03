@@ -17,6 +17,7 @@
   color: white;
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 .mapWrapper {
   position: relative;

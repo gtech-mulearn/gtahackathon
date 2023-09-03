@@ -54,20 +54,10 @@
   width: 3.5vw;
 }
 
-.lineOne {
-  height: 1px;
-  width: 85%;
-  background-color: rgb(255, 255, 255);
-}
-.lineTwo {
-  height: 1px;
-  width: 70%;
-  background-color: rgb(255, 255, 255);
-}
 .lineThree {
   height: 1px;
   width: 50%;
-  background-color: rgb(255, 255, 255);
+  background-color: #888888;
 }
 
 @media screen and (max-width: 630px) {
@@ -79,5 +69,22 @@
   }
   .companySponsorsDiv > a > img {
     max-width: 18vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sponsorsLogoWrapper {
+    gap: 2vh;
+  }
+  .divSponsorsTire {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .twinkleSponsors > img {
+    width: 6.5vw;
+  }
+
+  .lineThree {
+    display: none;
   }
 }

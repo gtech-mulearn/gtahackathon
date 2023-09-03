@@ -83,19 +83,25 @@
   }
 }
 
-
-@media screen and (max-width: 530px){
-    .leftContainer > img {
-  width: 320px;
-}
-    .rightContainer > div img {
-  width: 70px;
-}
+@media screen and (max-width: 530px) {
+  .leftContainer {
+    display: none;
+  }
+  .leftContainer > img {
+    width: 320px;
+  }
+  .rightContainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .rightContainer > div img {
+    width: 75px;
+  }
   .rightContainer > div h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .rightContainer > div h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }

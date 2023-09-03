@@ -16,7 +16,7 @@ const Sponsors = () => {
   return (
     <section id="sponsors">
       <div className={styles.contactsWrapper}>
-        <h1 className={styles.headingTeam}>OUR SPONSORS</h1>
+        <h1 className={styles.headingTeam}>Our Sponsors</h1>
 
         <div className={styles.sponsorsLogoWrapper}>
           <div className={styles.divSponsorsTire}>
@@ -34,7 +34,7 @@ const Sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
           </div>
-          <div className={styles.lineOne}></div>
+          <div className={styles.lineThree}></div>
           <div className={styles.divSponsorsTire}>
             <div className={styles.companySponsorsDiv}>
               <a href="https://devfolio.co/" target="_blank">
@@ -49,7 +49,7 @@ const Sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
           </div>
-          <div className={styles.lineTwo}></div>
+          <div className={styles.lineThree}></div>
           <div className={styles.divSponsorsTire}>
             <div className={styles.companySponsorsDiv}>
               <a href="https://replit.com" target="_blank">
@@ -66,7 +66,6 @@ const Sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
           </div>
-          <div className={styles.lineThree}></div>
         </div>
       </div>
     </section>
