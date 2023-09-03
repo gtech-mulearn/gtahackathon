@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Home.module.css";
 import sandshoreLogo from "../../../../assets/images/gtasandshoreLogo.png";
 import fivestar from "../../assets/5stargrp.png";
@@ -65,7 +65,11 @@ const Home = () => {
         <div className={styles.homelogodevfolio}>
           <img src={sandshoreLogo} alt="" />
           <h2 style={{ textAlign: "center" }}>HACKATHON</h2>
-          <img src={fivestar} alt="" />
+          <img
+            src={fivestar}
+            alt=""
+            style={{ marginBottom: "8px", marginTop: "0px" }}
+          />
           <div
             class="apply-button"
             data-hackathon-slug="gta-sandshores"

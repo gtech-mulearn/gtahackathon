@@ -83,7 +83,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
     padding: 20px 5%;
     position: fixed;
     z-index: 9000;

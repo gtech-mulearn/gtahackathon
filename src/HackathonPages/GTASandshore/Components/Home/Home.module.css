@@ -24,9 +24,10 @@
 }
 
 .homelogodevfolio h2 {
-  margin-top: -10px;
+  margin-bottom: 0;
+  margin-top: -20px;
   letter-spacing: 16px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.2);
   font-size: 25px;
   font-weight: 700;
 }
@@ -35,13 +36,14 @@
   display: flex;
   background: url("../../assets/homefooterbg.png") center center/cover no-repeat;
   height: 185px;
-  margin-top: -3.5%;
+  margin-top: 0%;
   z-index: 4000;
   width: 100%;
-
+  position: absolute;
   color: white;
   justify-content: space-around;
   align-items: center;
+  bottom: 0;
 }
 
 .homeFooter > div {
@@ -55,7 +57,7 @@
   margin: 0;
 }
 @media screen and (max-width: 1000px) {
-    .homeFooter {
+  .homeFooter {
     margin-top: -6.8%;
   }
 }
@@ -71,5 +73,19 @@
   }
   .homeFooter {
     margin-top: -10%;
+  }
+}
+@media screen and (max-height: 780px) {
+  .homeFooter {
+    height: 135px;
+  }
+}
+@media screen and (max-height: 700px) {
+  .HomeWrapper{
+    min-height: 100vh;
+  }
+  .homelogodevfolio {
+    margin-top: -35px;
+    width: 280px;
   }
 }
