@@ -75,13 +75,18 @@
     margin-top: -10%;
   }
 }
+@media screen and (max-width: 530px) {
+  .HomeWrapper {
+    min-height: 100vh;
+  }
+}
 @media screen and (max-height: 780px) {
   .homeFooter {
     height: 135px;
   }
 }
 @media screen and (max-height: 700px) {
-  .HomeWrapper{
+  .HomeWrapper {
     min-height: 100vh;
   }
   .homelogodevfolio {
