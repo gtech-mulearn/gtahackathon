@@ -29,7 +29,7 @@ const Location = () => {
         <img src={card} alt="" />
         <div>
           <p>
-            Vibe, 24 hours of<br></br>Coding hackathon, games &<br></br>
+            24 hours of<br></br>Coding hackathon, games &<br></br>
             events, Absolutely free of
             <br></br>cost, Food and Beverages,<br></br>Snacks and more.
           </p>
