@@ -23,10 +23,10 @@ const Faq1 = () => {
   ];
 
   return (
-    <div className={styles.faqWrapper}>
-      <h1 style={{color:"#fff",textAlign:"center"}}>FAQs</h1>
+    <div id="FAQs" className={styles.faqWrapper}>
+      <h1 style={{ color: "#fff", textAlign: "center" }}>FAQs</h1>
 
-      <div style={{ display: "flex", flexDirection: "column",width:"100%" }}>
+      <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
         {faqArray.map(({ heading, para }, i) => (
           <FAQ heading={heading} para={para} />
         ))}

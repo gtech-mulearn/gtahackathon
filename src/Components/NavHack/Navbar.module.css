@@ -6,7 +6,7 @@
   background: rgba(0, 0, 0, 0.85);
   position: fixed;
   z-index: 9000;
-  height: 90px;
+  height: 75px;
   overflow: hidden;
 }
 .navLogoWrapper {
@@ -30,13 +30,15 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  color: white;
+  font-weight: 400;
 }
 
 .navRegisterButton {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 10px;
+  padding: 5px 10px ;
   border: 2px solid #fff;
   border-radius: 5px;
   text-decoration: none;

@@ -5,7 +5,7 @@ import card from "./assets/card.png";
 
 const Location = () => {
   return (
-    <div className={styles.LocationCard}>
+    <div id="Venue" className={styles.LocationCard}>
       <div className={styles.locationWrapper}>
         <div className={styles.infoContainer}>
           <img src={venueLogo} alt="" />
@@ -34,7 +34,9 @@ const Location = () => {
             <br></br>cost, Food and Beverages,<br></br>Snacks and more.
           </p>
           <div className={styles.lineDiv}></div>
-          <p>Hackathon Goodies, Karma<br></br>Points</p>
+          <p>
+            Hackathon Goodies, Karma<br></br>Points
+          </p>
         </div>
       </div>
     </div>
