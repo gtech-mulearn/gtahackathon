@@ -7,15 +7,15 @@ const Prizes = () => {
       <div className={styles.amountWrapper}>
         <div>
           <h2>FIRST PRIZE</h2>
-          <h1>15,000 INR</h1>
+          <h1 className={styles.first}>15,000 INR</h1>
         </div>
         <div>
           <h2>SECOND PRIZE</h2>
-          <h1>7,500 INR</h1>
+          <h1 className={styles.second}>7,500 INR</h1>
         </div>{" "}
         <div>
           <h2>THIRD PRIZE</h2>
-          <h1>3,000 INR</h1>
+          <h1 className={styles.third}>3,000 INR</h1>
         </div>
       </div>
       <p style={{ textAlign: "center" }}>

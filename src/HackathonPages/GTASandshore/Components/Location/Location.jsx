@@ -6,7 +6,7 @@ import card from "./assets/card.png";
 const Location = () => {
   return (
     <div id="Venue" className={styles.LocationCard}>
-      <div className={styles.locationWrapper}>
+      {/* <div className={styles.locationWrapper}>
         <div className={styles.infoContainer}>
           <img src={venueLogo} alt="" />
           <div className={styles.infosection}>
@@ -24,7 +24,7 @@ const Location = () => {
             VISIT VENUE
           </a>
         </div>
-      </div>
+      </div> */}
       <div className={styles.cardWrapper}>
         <img src={card} alt="" />
         <div>
