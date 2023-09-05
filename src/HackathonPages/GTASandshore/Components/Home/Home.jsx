@@ -80,19 +80,19 @@ const Home = () => {
       </div>
       <div className={styles.homeFooter}>
         <div>
-          <h1>{remainingTime.days}</h1>
+          <h1>{String(remainingTime.days).padStart(2, "0")}</h1>
           <p>DAYS</p>
         </div>
         <div>
-          <h1>{remainingTime.hours}</h1>
+          <h1>{String(remainingTime.hours).padStart(2, "0")}</h1>
           <p>HOURS</p>
         </div>
         <div>
-          <h1>{remainingTime.minutes}</h1>
+          <h1>{String(remainingTime.minutes).padStart(2, "0")}</h1>
           <p>MINUTES</p>
         </div>
         <div>
-          <h1>{remainingTime.seconds}</h1>
+          <h1>{String(remainingTime.seconds).padStart(2, "0")}</h1>
           <p>SECONDS</p>
         </div>
       </div>
