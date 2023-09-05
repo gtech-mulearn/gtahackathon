@@ -3,6 +3,7 @@ import styles from "./Faq.module.css";
 
 import FAQ from "./Faq";
 const Faq1 = () => {
+  const [openIndex, setOpenIndex] = useState(-1);
   const faqArray = [
     {
       heading: "What is the maximum team size allowed?",
@@ -15,16 +16,34 @@ const Faq1 = () => {
     {
       heading: "Can we work on pre-existing projects?",
       para: "No, participants are strictly required to develop a prototype within a 24-hour timeframe, based on the problem statements provided.",
-    }
+    },
   ];
 
   return (
-    <div className={styles.faqWrapper}>
-      <h1 style={{color:"#fff",textAlign:"center"}}>FAQs</h1>
+    <div id="FAQs" className={styles.faqWrapper}>
+      <h1 style={{ color: "#fff", textAlign: "center" }}>FAQs</h1>
 
-      <div style={{ display: "flex", flexDirection: "column",width:"100%" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          width: "100%",
+          gap: "7px",
+        }}
+      >
         {faqArray.map(({ heading, para }, i) => (
-          <FAQ heading={heading} para={para} />
+          <FAQ
+            heading={heading}
+            para={para}
+            isOpen={openIndex === i}
+            onToggle={() => {
+              if (openIndex === i) {
+                setOpenIndex(-1); // Close the currently open FAQ
+              } else {
+                setOpenIndex(i); // Open the clicked FAQ and close others
+              }
+            }}
+          />
         ))}
       </div>
     </div>
