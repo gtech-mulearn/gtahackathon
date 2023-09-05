@@ -3,16 +3,12 @@ import styles from "./Faq.module.css";
 import img from "./assets/Details.png";
 import { ArrowUp, ArrowDown } from "../../../../assets/svg/svg.tsx";
 
-const Faq = ({ heading, para }) => {
-  const [openmenu, setopenmenu] = useState(false);
-  function openMenu() {
-    setopenmenu(!openmenu);
-  }
+const Faq = ({ heading, para, isOpen, onToggle }) => {
   return (
     <div className={styles.faqContentWrapper}>
       <div
         style={{
-          background: openmenu
+          background: isOpen
             ? `url(${img})center center/cover no-repeat`
             : "#000",
         }}
@@ -20,12 +16,12 @@ const Faq = ({ heading, para }) => {
       >
         <div className={styles.header}>
           <h1>{heading}</h1>
-          <button onClick={openMenu}>
-            {openmenu ? <ArrowUp /> : <ArrowDown />}
+          <button onClick={onToggle}>
+            {isOpen ? <ArrowUp /> : <ArrowDown />}
           </button>{" "}
         </div>
 
-        {openmenu && (
+        {isOpen && (
           <div>
             <p>{para}</p>
           </div>
