@@ -5,7 +5,7 @@ import fivestar from "../../assets/5stargrp.png";
 
 const Home = () => {
   // Set your target date here
-  const targetDate = new Date("2023-08-19T08:59:59");
+  const targetDate = new Date("2023-10-14T08:59:59");
 
   const [remainingTime, setRemainingTime] = useState({
     days: 0,
@@ -57,7 +57,6 @@ const Home = () => {
           <img src={fivestar} alt="" />
         </div>
       </div>
- 
     </>
   );
 };
