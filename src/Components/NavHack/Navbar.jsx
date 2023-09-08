@@ -63,11 +63,11 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="mailto:events@mulearn.in"
+            href="leaderboard"
             className={styles.atagWrapper}
             style={{ marginBottom: "10px" }}
           >
-            Support&nbsp;
+            Leaderboard&nbsp;
             <ClickOpenSvg />
           </a>
         </div>
@@ -109,12 +109,8 @@ const Navbar = () => {
                 </p>
               </a>
             ))}
-            <a
-              href="mailto:events@mulearn.in"
-              className={styles.atagWrapper}
-            
-            >
-              Support&nbsp;
+            <a href="/sandshoresleaderboard" className={styles.atagWrapper}>
+              Leaderboard&nbsp;
               <ClickOpenSvg />
             </a>
             <a
