@@ -56,7 +56,6 @@ const Leaderboard = () => {
   //     }
   //   });
   console.log("hello");
-  console.log(amal);
   return (
     <div className={styles.leaderboardWrapper}>
       <div className={styles.leaderboardNavigation}>
