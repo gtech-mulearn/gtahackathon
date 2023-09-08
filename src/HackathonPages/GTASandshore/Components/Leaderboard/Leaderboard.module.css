@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 25px;
   font-family: "HelveticaBold";
+  min-height: 100vh;
 }
 
 .leaderboardNavigation {
@@ -13,6 +14,7 @@
   justify-content: space-between;
   width: 95%;
   color: white;
+  margin-top: 10px;
 }
 
 .leaderboardNavigation a {
@@ -43,16 +45,20 @@ table {
   font-size: 16px;
   text-align: center;
 }
+tr td,
+tr th {
+  padding: 10px 0px 10px;
+}
 @media screen and (max-width: 1150px) {
   table {
     width: 80%;
   }
 }
-@media screen and (max-width: 550px){
-table {
-  width: 85%;
-  font-size: 14px;
-}
+@media screen and (max-width: 550px) {
+  table {
+    width: 85%;
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 450px) {
   .leaderboardNavigation h1 {
@@ -65,5 +71,12 @@ table {
 @media screen and (max-width: 390px) {
   .leaderboardNavigation span {
     display: none;
+  }
+  .leaderboardNavigation a {
+    font-size: 12px;
+  }
+    table {
+    width: 85%;
+    font-size: 13px;
   }
 }

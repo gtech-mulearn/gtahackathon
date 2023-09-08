@@ -63,7 +63,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="leaderboard"
+            href="/sandshoresleaderboard"
             className={styles.atagWrapper}
             style={{ marginBottom: "10px" }}
           >

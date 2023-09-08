@@ -5,6 +5,58 @@ import Footer from "../../../../Components/Footer/Footer";
 import { BackButtonSvg } from "../../../../assets/svg/svg.tsx";
 
 const Leaderboard = () => {
+  const Content = [
+    {
+      slno: 1,
+      college: "Christ College of Engineering",
+      regNo: 240,
+    },
+    {
+      slno: 2,
+      college: "Sahradaya College of Engineering",
+      regNo: 200,
+    },
+    {
+      slno: 3,
+      college: "KKEM College of Architecture",
+      regNo: 240,
+    },
+    {
+      slno: 4,
+      college: "Vidya College of Engineering",
+      regNo: 200,
+    },
+    {
+      slno: 5,
+      college: "Thejus College of Engineering",
+      regNo: 240,
+    },
+    {
+      slno: 6,
+      college: "Jyothi College of Engineering",
+      regNo: 200,
+    },
+    {
+      slno: 7,
+      college: "KKEM College of Architecture",
+      regNo: 240,
+    },
+    {
+      slno: 8,
+      college: "Vidya College of Engineering",
+      regNo: 200,
+    },
+    {
+      slno: 9,
+      college: "Thejus College of Engineering",
+      regNo: 240,
+    },
+    {
+      slno: 10,
+      college: "Jyothi College of Engineering",
+      regNo: 200,
+    },
+  ];
   return (
     <div className={styles.leaderboardWrapper}>
       <div className={styles.leaderboardNavigation}>
@@ -29,21 +81,14 @@ const Leaderboard = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>Alpha College</td>
-            <td>ALP123</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Beta Institute</td>
-            <td>BET456</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Gamma University</td>
-            <td>GAM789</td>
-          </tr>
+          {Content.map(({slno,college,regNo},i)=>(
+            <tr>
+              <td>{slno}</td>
+              <td>{college}</td>
+              <td>{regNo}</td>
+            </tr>
+          ))}
+        
         </tbody>
       </table>
       <Footer />
