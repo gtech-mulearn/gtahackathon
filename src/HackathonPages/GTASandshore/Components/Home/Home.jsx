@@ -16,7 +16,7 @@ const Home = () => {
   }, []);
 
   // Set your target date here
-  const targetDate = new Date("2023-10-14T08:59:59");
+  const targetDate = new Date("2023-11-11T08:59:59");
 
   const [remainingTime, setRemainingTime] = useState({
     days: 0,
