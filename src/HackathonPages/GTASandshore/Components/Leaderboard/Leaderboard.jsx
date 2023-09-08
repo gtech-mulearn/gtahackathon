@@ -36,26 +36,26 @@ const Leaderboard = () => {
  
   ];
 
-  const amal = axios
-    .get("https://devfolio.vez.social/rank")
-    .then((response) => {
-      console.log(response.data);
-    })
-    .catch((axiosError) => {
-      console.error("Error Message:", axiosError.message);
-      if (axiosError.response) {
-        console.error("Data:", axiosError.response.data);
-        console.error("Status:", axiosError.response.status);
-        console.error("Headers:", axiosError.response.headers);
-      } else if (axiosError.request) {
-        console.error("No response was received:", axiosError.request);
-      } else {
-        console.error(
-          "Something went wrong setting up the request:",
-          axiosError.message
-        );
-      }
-    });
+  // const amal = axios
+  //   .get("https://devfolio.vez.social/rank")
+  //   .then((response) => {
+  //     console.log(response.data);
+  //   })
+  //   .catch((axiosError) => {
+  //     console.error("Error Message:", axiosError.message);
+  //     if (axiosError.response) {
+  //       console.error("Data:", axiosError.response.data);
+  //       console.error("Status:", axiosError.response.status);
+  //       console.error("Headers:", axiosError.response.headers);
+  //     } else if (axiosError.request) {
+  //       console.error("No response was received:", axiosError.request);
+  //     } else {
+  //       console.error(
+  //         "Something went wrong setting up the request:",
+  //         axiosError.message
+  //       );
+  //     }
+  //   });
   console.log("hello");
   console.log(amal);
   return (
