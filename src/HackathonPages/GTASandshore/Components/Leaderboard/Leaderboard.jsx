@@ -3,7 +3,6 @@ import styles from "./Leaderboard.module.css";
 import Navbar from "../../../../Components/NavHack/Navbar";
 import Footer from "../../../../Components/Footer/Footer";
 import { BackButtonSvg } from "../../../../assets/svg/svg.tsx";
-import { get } from "mongoose";
 import axios from "axios";
 
 const Leaderboard = () => {
