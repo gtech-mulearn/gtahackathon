@@ -14,7 +14,7 @@ import styles from "./GTASandshore.module.css";
 const GTASandshore = () => {
   return (
     <div className={styles.sandshoresWrapper}>
-      <NavHack />
+      <NavHack url="/sandshoresleaderboard" />
       <Home />
       <About />
       <Verticals />

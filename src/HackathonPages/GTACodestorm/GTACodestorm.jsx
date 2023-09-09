@@ -13,7 +13,7 @@ import styles from "./GTACodestorm.module.css";
 const GTACodestorm = () => {
   return (
     <div className={styles.codestormWrapper}>
-      <NavHack />
+      <NavHack url="/codestormleaderboard" />
       <Home />
       <About />
       <Verticals />

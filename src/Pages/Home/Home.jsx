@@ -7,9 +7,9 @@ import GTASandshores from '../../HackathonPages/GTASandshore/GTASandshore'
 const Home = () => {
   return (
     <div className={styles.homeWrapper}>
-      {/* <Navbar />
-      <Landing /> */}
-      <GTASandshores />
+      <Navbar />
+      <Landing />
+      {/* <GTASandshores /> */}
     </div>
   );
 };
