@@ -8,10 +8,10 @@
 
 .InnerDiv {
   display: flex;
-  width: 90%;
+   width: 77%;
   align-items: center;
   justify-content: center;
-  gap: 12%;
+  gap: 10%;
   color: white;
   height: 100%;
 }
@@ -62,7 +62,8 @@
     text-align: center;
   }
   .InnerDiv img {
-    max-height: 350px;
+ max-height: auto;
+    width: 100%;
   }
   .InnerDiv div h1 {
     font-size: 30px;

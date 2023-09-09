@@ -26,27 +26,7 @@ const Landing = () => {
             <SwiperSlide>
               <img src={img1} alt="" loading="lazy" />
             </SwiperSlide>
-            <SwiperSlide>
-              <img src={img1} alt="" loading="lazy" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img1} alt="" loading="lazy" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img1} alt="" loading="lazy" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img1} alt="" loading="lazy" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img1} alt="" loading="lazy" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img1} alt="" loading="lazy" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={img1} alt="" loading="lazy" />
-            </SwiperSlide>
+           
           </Swiper>
         </div>
         <div

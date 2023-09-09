@@ -3,7 +3,7 @@ import styles from "./WhyGTA.module.css";
 import image from "./assets/image.svg";
 const WhyGTA = () => {
   return (
-    <div id="Overview" className={styles.OverviewWrapper}>
+    <div id="Why-GTA?" className={styles.OverviewWrapper}>
       <div className={styles.InnerDiv}>
         <img src={image} alt="" />
         <div>

@@ -9,10 +9,10 @@
 
 .InnerDiv {
   display: flex;
-  width: 90%;
+  width: 77%;
   align-items: center;
   justify-content: center;
-  gap: 12%;
+  gap: 10%;
   color: white;
   height: 100%;
 }
@@ -59,9 +59,11 @@
     gap: 20px;
     flex-direction: column;
     text-align: center;
+    width: 95%;
   }
   .InnerDiv img {
-    max-height: 350px;
+    max-height: auto;
+    width: 100%;
   }
   .InnerDiv div h1 {
     font-size: 30px;

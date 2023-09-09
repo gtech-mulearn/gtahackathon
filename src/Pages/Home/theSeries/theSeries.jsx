@@ -26,7 +26,7 @@ const theSeries = () => {
         },
     ];
     return (
-        <div className={styles.theSeriesWrapper}>
+        <div id="The-Series" className={styles.theSeriesWrapper}>
             {data.map(({ title, venue, para, explore, profile, bg }, i) => (
                 <div className={styles.individual}>
                     <div
