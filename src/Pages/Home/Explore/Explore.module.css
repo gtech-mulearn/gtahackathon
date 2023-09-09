@@ -41,17 +41,17 @@
   padding: 0%;
   font-size: 18px;
 }
-.InnerDiv div a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 5px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    border: 2px solid white;
-    border-radius: 5px;
+.InnerDiv div a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 @media screen and (max-width: 900px) {
   .InnerDiv {
@@ -83,6 +83,6 @@
     font-size: 14px;
   }
   .InnerDiv div {
-align-items: center;
-}
+    align-items: center;
+  }
 }
