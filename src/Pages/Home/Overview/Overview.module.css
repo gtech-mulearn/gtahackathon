@@ -3,6 +3,8 @@
   align-items: center;
   width: 100%;
   justify-content: center;
+  padding: 4vh 0vw;
+  background: url("./assets/bgOverview.svg") center center/cover no-repeat;
 }
 
 .InnerDiv {
@@ -25,6 +27,7 @@
 .InnerDiv div {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .InnerDiv div h1 {
