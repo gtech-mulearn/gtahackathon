@@ -38,8 +38,9 @@ const Footer = () => {
             </a>
           </div>
           <div className={styles.footerHackName}>
-            <a href="/codestorm">CodeStorm</a>
-            <a href="/sandshores">SandShores</a>
+            {/* <a href="/codestorm">CodeStorm</a>
+            <a href="/sandshores">SandShores</a> */}
+            <p >All Rights Reserved. Copyright 2023 ©</p>
           </div>
           <div>
             <a>MCMXCVIII</a>
