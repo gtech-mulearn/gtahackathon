@@ -1,10 +1,11 @@
 .landingWrapper {
   width: 100%;
   height: 100vh;
-  min-height: 760px;
+  min-height: 580px;
 
   color: white;
   position: relative;
+
 }
 .swiper {
   width: 100%;
@@ -14,6 +15,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: fill;
+    min-height: 580px;
 }
 
 .landingContentWrapper {
