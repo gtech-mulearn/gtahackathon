@@ -32,29 +32,21 @@ const Leaderboard = () => {
       college: "College of Engineering Trivandrum",
       regNo: 3,
     },
- 
   ];
+  const fun = async () => {
+    const options = { method: "GET", url: "https://devfolio.vez.social/rank" };
 
-  // const amal = axios
-  //   .get("https://devfolio.vez.social/rank")
-  //   .then((response) => {
-  //     console.log(response.data);
-  //   })
-  //   .catch((axiosError) => {
-  //     console.error("Error Message:", axiosError.message);
-  //     if (axiosError.response) {
-  //       console.error("Data:", axiosError.response.data);
-  //       console.error("Status:", axiosError.response.status);
-  //       console.error("Headers:", axiosError.response.headers);
-  //     } else if (axiosError.request) {
-  //       console.error("No response was received:", axiosError.request);
-  //     } else {
-  //       console.error(
-  //         "Something went wrong setting up the request:",
-  //         axiosError.message
-  //       );
-  //     }
-  //   });
+    try {
+      const { data } = await axios.request(options);
+      console.log(data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+  useEffect(() => {
+    fun()
+  }, []);
+
   console.log("hello");
   return (
     <div className={styles.leaderboardWrapper}>
