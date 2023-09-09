@@ -50,7 +50,7 @@ const Home = () => {
 
   return (
     <>
-      <div className={styles.HomeWrapper}>
+      <div id="Overview" className={styles.HomeWrapper}>
         <div className={styles.homelogodevfolio}>
           <img src={sandshoreLogo} alt="" />
           <h2 style={{ textAlign: "center" }}>HACKATHON</h2>
