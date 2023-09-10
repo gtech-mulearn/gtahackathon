@@ -20,13 +20,11 @@ const Landing = () => {
             pagination={{
               dynamicBullets: true,
             }}
-           
             className={styles.swiper}
           >
             <SwiperSlide>
               <img src={img1} alt="" loading="lazy" />
             </SwiperSlide>
-           
           </Swiper>
         </div>
         <div
@@ -45,7 +43,7 @@ const Landing = () => {
           </p>
           <div style={{ display: "flex", gap: "15px" }}>
             <a href="/sandshores">EXPLORE HACKATHON</a>
-            <a href="/">APPLY NOW</a>
+            <a href="https://gta-sandshores.devfolio.co/">APPLY NOW</a>
           </div>
         </div>
       </div>
