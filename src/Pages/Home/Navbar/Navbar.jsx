@@ -70,7 +70,10 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-        <a href="" className={styles.navRegisterButton}>
+        <a
+          href="https://gta-sandshores.devfolio.co/"
+          className={styles.navRegisterButton}
+        >
           REGISTER
         </a>
       </div>
@@ -104,7 +107,10 @@ const Navbar = () => {
                 </p>
               </a>
             ))}
-            <a href="" className={styles.navRegisterButton}>
+            <a
+              href="https://gta-sandshores.devfolio.co/"
+              className={styles.navRegisterButton}
+            >
               REGISTER
             </a>
           </div>
