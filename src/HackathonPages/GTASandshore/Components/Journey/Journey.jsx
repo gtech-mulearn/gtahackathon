@@ -17,7 +17,67 @@ const Journey = () => {
           <img className={styles.background} src={map} alt="" />
           <div className={styles.maskbg}></div>
           {/* <div className={styles.timelineWrapper}>
-            
+            <div className={styles.container}>
+              <div className={styles.yellowCircle}></div>
+              <PersonSvg />
+              <div className={styles.inner}>
+                <h3>September 01</h3>
+                <p>Registration Starts</p>
+              </div>
+            </div>
+            <div className={styles.strip1}></div>
+            <div className={styles.container}>
+              <div className={styles.yellowCircle}></div>
+              <PersonSvg />
+              <div className={styles.inner}>
+                <h3>September 01</h3>
+                <p>Registration Starts</p>
+              </div>
+            </div>
+            <div className={styles.strip2}></div>
+            <div className={styles.strip2Sub}></div>
+            <div className={styles.strip2Sub2}></div>
+            <div className={styles.container}>
+              <div className={styles.yellowCircle}></div>
+              <PersonSvg />
+              <div className={styles.inner}>
+                <h3>September 01</h3>
+                <p>Registration Starts</p>
+              </div>
+            </div>
+            <div className={styles.strip3}></div>
+            <div className={styles.container}>
+              <div className={styles.yellowCircle}></div>
+              <PersonSvg />
+              <div className={styles.inner}>
+                <h3>September 01</h3>
+                <p>Registration Starts</p>
+              </div>
+            </div>
+            <div className={styles.container}>
+              <div className={styles.yellowCircle}></div>
+              <PersonSvg />
+              <div className={styles.inner}>
+                <h3>September 01</h3>
+                <p>Registration Starts</p>
+              </div>
+            </div>
+            <div className={styles.container}>
+              <div className={styles.yellowCircle}></div>
+              <PersonSvg />
+              <div className={styles.inner}>
+                <h3>September 01</h3>
+                <p>Registration Starts</p>
+              </div>
+            </div>
+            <div className={styles.container}>
+              <div className={styles.yellowCircle}></div>
+              <PersonSvg />
+              <div className={styles.inner}>
+                <h3>September 01</h3>
+                <p>Registration Starts</p>
+              </div>
+            </div>
           </div> */}
         </div>
       </div>
