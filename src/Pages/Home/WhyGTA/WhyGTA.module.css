@@ -41,6 +41,9 @@
   font-size: 18px;
   text-align: left;
 }
+.InnerDiv div ul li{
+  padding: 5px 0px;
+}
 @media screen and (max-width: 900px) {
   .InnerDiv {
     gap: 5%;
