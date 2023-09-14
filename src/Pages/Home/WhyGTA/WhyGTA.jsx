@@ -5,7 +5,7 @@ const WhyGTA = () => {
   return (
     <div id="Why-GTA?" className={styles.OverviewWrapper}>
       <div className={styles.InnerDiv}>
-        <img src={image} alt="" />
+        {" "}
         <div>
           <h1>Why GTA Hackathon Series?</h1>
           <ul>
@@ -26,6 +26,7 @@ const WhyGTA = () => {
             </li>
           </ul>
         </div>
+        <img src={image} alt="" />
       </div>
     </div>
   );
