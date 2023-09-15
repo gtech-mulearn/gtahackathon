@@ -55,11 +55,121 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: fit-content;
+  justify-content: center;
+  width: 600px;
+  height: 100%;
   padding-left: 0px;
   margin-top: -40px;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
+.yellowCircle {
+  width: 28px;
+  height: 28px;
+  background-color: #e5bb7d;
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container .inner {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e5bb7d;
+  margin: 0;
+}
+
+.container p {
+  margin: 0;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "HelveticaLight";
+}
+
+.first{
+  margin-left: 40px;
+}
+
+.strip1 {
+  height: 260px;
+  width: 60px;
+  border-left: 10px solid #e5bb7d;
+  border-bottom: 10px solid #e5bb7d;
+  margin-top: -33px;
+}
+
+.second{
+  margin-top: -42px;
+  margin-left: 40px;
+
+}
+.strip2 {
+  height: 20px;
+  width: 10px;
+  background-color: #e5bb7d;
+  margin-top: -33px;
+}
+
+.strip2Sub {
+  height: 100px;
+  width: 10px;
+  background-color: #e5bb7d;
+  transform: rotate(120deg);
+  margin-top: -25px;
+  margin-left: 40px;
+}
+.strip2Sub2 {
+  height: 60px;
+  width: 10px;
+  background-color: #e5bb7d;
+  transform: rotate(5deg);
+  margin-top: -28px;
+  margin-left: 77px;
+}
+
+.third{
+   margin-top: -35px;
+  margin-left: 40px;
+}
+.strip3 {
+  height: 60px;
+  width: 10px;
+  background-color: #e5bb7d;
+  transform: rotate(5deg);
+}
+.strip3Sub {
+  height: 50px;
+  width: 100px;
+
+  border-top: 10px solid #e5bb7d;
+  border-right: 10px solid #e5bb7d;
+}
+.strip4 {
+  height: 80px;
+  width: 30px;
+
+  border-left: 10px solid #e5bb7d;
+  border-bottom: 10px solid #e5bb7d;
+}
+.strip4Sub{
+    height: 50px;
+  width: 10px;
+
+  border-left: 10px solid #e5bb7d;
+}
 @media screen and (max-width: 640px) {
   .mapWrapper {
     min-height: 1000px;

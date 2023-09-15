@@ -5,6 +5,7 @@ import Overview from "./Overview/Overview";
 import Explore from "./Explore/Explore";
 import WhyGTA from "./WhyGTA/WhyGTA";
 import TheSeries from "./theSeries/theSeries";
+import Location from "./Location/Location";
 import Footer from "../../Components/Footer/Footer";
 import styles from './Home.module.css'
 import GTASandshores from '../../HackathonPages/GTASandshore/GTASandshore'
@@ -18,6 +19,7 @@ const Home = () => {
       <Explore />
       <WhyGTA />
       <TheSeries />
+      <Location />
       <Footer />
       {/* <GTASandshores /> */}
     </div>
