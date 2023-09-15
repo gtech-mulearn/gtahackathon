@@ -5,7 +5,7 @@ import {PhoneLogoSvg,MailLogoSvg} from '../../../assets/svg/svg.tsx'
 
 const Location = () => {
   return (
-    <div id="Venue" className={styles.LocationCard}>
+    <div id="Support" className={styles.LocationCard}>
       <div className={styles.bottomWrapper}>
         <div className={styles.cardWrapper}>
           <img src={card} alt="" />
