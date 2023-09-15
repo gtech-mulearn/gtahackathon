@@ -55,9 +55,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 600px;
   height: 100%;
   padding-left: 0px;
   margin-top: -40px;
@@ -65,8 +64,8 @@
 }
 
 .yellowCircle {
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
   background-color: #e5bb7d;
   border-radius: 50%;
 }
@@ -86,8 +85,8 @@
 }
 
 .container h3 {
-  font-size: 22px;
-  font-weight: 6600;
+  font-size: 20px;
+  font-weight: 500;
   color: #e5bb7d;
   margin: 0;
 }
@@ -96,20 +95,32 @@
   margin: 0;
   color: white;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 18px;
   font-family: "HelveticaLight";
 }
 
+.first{
+  margin-left: 40px;
+}
+
 .strip1 {
-  height: 300px;
+  height: 260px;
   width: 60px;
   border-left: 10px solid #e5bb7d;
   border-bottom: 10px solid #e5bb7d;
+  margin-top: -33px;
+}
+
+.second{
+  margin-top: -42px;
+  margin-left: 40px;
+
 }
 .strip2 {
   height: 20px;
   width: 10px;
   background-color: #e5bb7d;
+  margin-top: -33px;
 }
 
 .strip2Sub {
@@ -117,18 +128,47 @@
   width: 10px;
   background-color: #e5bb7d;
   transform: rotate(120deg);
+  margin-top: -25px;
+  margin-left: 40px;
 }
-.strip2Sub2{
+.strip2Sub2 {
+  height: 60px;
+  width: 10px;
+  background-color: #e5bb7d;
+  transform: rotate(5deg);
+  margin-top: -28px;
+  margin-left: 77px;
+}
+
+.third{
+   margin-top: -35px;
+  margin-left: 40px;
+}
+.strip3 {
   height: 60px;
   width: 10px;
   background-color: #e5bb7d;
   transform: rotate(5deg);
 }
-.strip3{
-   height: 60px;
+.strip3Sub {
+  height: 50px;
+  width: 100px;
+
+  border-top: 10px solid #e5bb7d;
+  border-right: 10px solid #e5bb7d;
+}
+.strip4 {
+  height: 80px;
+  width: 30px;
+
+  border-left: 10px solid #e5bb7d;
+  border-bottom: 10px solid #e5bb7d;
+}
+.strip4Sub{
+    height: 50px;
   width: 10px;
-  background-color: #e5bb7d;
-  transform: rotate(5deg);
+
+  border-left: 10px solid #e5bb7d;
 }
 @media screen and (max-width: 640px) {
   .mapWrapper {
