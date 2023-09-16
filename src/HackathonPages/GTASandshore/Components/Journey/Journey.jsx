@@ -6,8 +6,6 @@ import {
   CompusSvg,
   ComputerSvg,
 } from "../../../../assets/svg/svg.tsx";
-
-import { PrizeSvg, PartySvg,TimerSvg } from "./assets/svg.tsx";
 import Check from "./assets/Checkpoint.png";
 const Journey = () => {
   return (
@@ -17,7 +15,7 @@ const Journey = () => {
         <div className={styles.mapWrapper}>
           <img className={styles.background} src={map} alt="" />
           <div className={styles.maskbg}></div>
-          <div className={styles.timelineWrapper}>
+          {/* <div className={styles.timelineWrapper}>
             <div className={styles.container + " " + styles.first}>
               <div className={styles.yellowCircle}></div>
               <PersonSvg />
@@ -31,7 +29,7 @@ const Journey = () => {
 
             <div className={styles.container + " " + styles.second}>
               <div className={styles.yellowCircle}></div>
-              <TimerSvg />
+              <PersonSvg />
               <div className={styles.inner}>
                 <h3>October 20</h3>
                 <p>Registration Ends</p>
@@ -43,7 +41,7 @@ const Journey = () => {
 
             <div className={styles.container + " " + styles.third}>
               <div className={styles.yellowCircle}></div>
-              <ComputerSvg />
+              <PersonSvg />
               <div className={styles.inner}>
                 <h3>October 22</h3>
                 <p>First Shortlisting</p>
@@ -57,7 +55,7 @@ const Journey = () => {
                 <h3>September 01</h3>
                 <p>Shortlisting Process Ends</p>
               </div>
-              <CompusSvg />
+              <PersonSvg />
 
               <div className={styles.yellowCircle}></div>
             </div>
@@ -80,7 +78,7 @@ const Journey = () => {
                 <h3>November 11</h3>
                 <p>Hackathon Starts</p>
               </div>
-              <PartySvg />
+              <PersonSvg />
 
               <div className={styles.yellowCircle}></div>
             </div>
@@ -89,13 +87,13 @@ const Journey = () => {
 
             <div className={styles.container + " " + styles.seven}>
               <div className={styles.yellowCircle}></div>
-              <PrizeSvg />
+              <PersonSvg />
               <div className={styles.inner}>
                 <h3>November 12</h3>
                 <p>Hackathon Ends</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
