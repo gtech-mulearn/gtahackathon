@@ -6,7 +6,6 @@ import {
   CompusSvg,
   ComputerSvg,
 } from "../../../../assets/svg/svg.tsx";
-import Scissors from "./assets/Scissor.png";
 import Check from "./assets/Checkpoint.png";
 const Journey = () => {
   return (
@@ -26,6 +25,7 @@ const Journey = () => {
               </div>
             </div>
             <div className={styles.strip1}></div>
+            <div className={styles.strip1Sub}></div>
 
             <div className={styles.container + " " + styles.second}>
               <div className={styles.yellowCircle}></div>
@@ -49,34 +49,43 @@ const Journey = () => {
             </div>
             <div className={styles.strip3}></div>
             <div className={styles.strip3Sub}></div>
-            <div className={styles.container}>
-              <div className={styles.yellowCircle}></div>
-              <PersonSvg />
+
+            <div className={styles.container + " " + styles.four}>
               <div className={styles.inner}>
                 <h3>September 01</h3>
                 <p>Shortlisting Process Ends</p>
               </div>
+              <PersonSvg />
+
+              <div className={styles.yellowCircle}></div>
             </div>
             <div className={styles.strip4}></div>
             <div className={styles.strip4Sub}></div>
 
-            <div className={styles.container}>
-              <div className={styles.yellowCircle}></div>
-              <PersonSvg />
+            <div className={styles.container + " " + styles.five}>
               <div className={styles.inner}>
                 <h3>September 01</h3>
-                <p>Shortlisting Teams Announced</p>
+                <p>Shortlisted teams announced</p>
               </div>
-            </div>
-            <div className={styles.container}>
+              <img src={Check} alt="" />
+
               <div className={styles.yellowCircle}></div>
-              <PersonSvg />
+            </div>
+            <div className={styles.strip5}></div>
+
+            <div className={styles.container + " " + styles.six}>
               <div className={styles.inner}>
                 <h3>November 11</h3>
                 <p>Hackathon Starts</p>
               </div>
+              <PersonSvg />
+
+              <div className={styles.yellowCircle}></div>
             </div>
-            <div className={styles.container}>
+            <div className={styles.strip6}></div>
+            <div className={styles.strip6Sub}></div>
+
+            <div className={styles.container + " " + styles.seven}>
               <div className={styles.yellowCircle}></div>
               <PersonSvg />
               <div className={styles.inner}>
