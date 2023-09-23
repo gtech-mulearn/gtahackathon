@@ -8,7 +8,7 @@ import TheSeries from "./theSeries/theSeries";
 import Location from "./Location/Location";
 import Footer from "../../Components/Footer/Footer";
 import styles from './Home.module.css'
-import GTASandshores from '../../HackathonPages/GTASandshore/GTASandshore'
+// import GTASandshores from '../../HackathonPages/GTASandshore/GTASandshore'
 
 const Home = () => {
   return (

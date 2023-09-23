@@ -46,6 +46,12 @@
   color: white;
   margin-right: 2vw;
 }
+
+.navRegisterButton:hover {
+  background: white;
+  color: black;
+}
+
 .mobileNav {
   display: none;
   backdrop-filter: blur(5px);
