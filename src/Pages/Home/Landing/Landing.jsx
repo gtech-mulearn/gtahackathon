@@ -15,8 +15,9 @@ const Landing = () => {
   };
 
   useEffect(() => {
-    if (navbg && videoRef.current) {
+    if (window.innerWidth < 620 && navbg && videoRef.current) {
       videoRef.current.play(); // Use the ref to play the video
+	//   videoRef.current.muted = false;
     }
   }, [navbg]);
 

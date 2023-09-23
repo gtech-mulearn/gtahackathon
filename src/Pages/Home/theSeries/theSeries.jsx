@@ -10,7 +10,7 @@ const theSeries = () => {
     const data = [
         {
             title: "GTA Sandshore Hackathon",
-            venue: "Surprise",
+            venue: "Abideep's Paradise",
             para: "Get ready for the next wave of innovation and tech brilliance as we introduce GTA: Sandshore Hackathon. After the success of CodeStorm, the adventure continues.",
             explore: "/sandshores",
             profile: sandshores,
