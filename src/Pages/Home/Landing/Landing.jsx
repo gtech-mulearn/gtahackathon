@@ -31,12 +31,12 @@ const Landing = () => {
   return (
     <div className={styles.landingWrapper}>
       <div className={styles.videoWrapper}>
-        <iframe
+        {/* <iframe
           className={styles.iframeelement}
           src="https://www.youtube.com/embed/CaQ8MmCdmwM?autoplay=1&mute=1&controls=0&showinfo=0&modestbranding=1&rel=0&loop=1&playsinline=1&start=0&fs=0&playlist=CaQ8MmCdmwM"
           allow="autoplay; fullscreen"
-        ></iframe>
-        <video ref={videoRef} autoPlay loop muted>
+        ></iframe> */}
+        <video ref={videoRef} autoPlay loop muted preload="auto">
           <source src={vid} type="video/mp4"></source>
         </video>
       </div>
