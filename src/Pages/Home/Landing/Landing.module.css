@@ -17,7 +17,7 @@ video {
     width: 100%;
     height: 100%;
     position: absolute;
-    object-fit: cover;
+    object-fit: cover;z-index: 500;
 }
 .videoWrapper {
     width: 100vw;
