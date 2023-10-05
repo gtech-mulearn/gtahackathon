@@ -19,7 +19,7 @@ const Faq1 = () => {
       },
       {
         heading: "How can I qualify for participation?",
-        para: "The hackathon follows a two-phase structure. Participants who successfully clear the first online phase will have the opportunity to participate in the subsequent offline hackathon. Problem statements for the first phase will be released on October 1st. Your performance in this phase will determine your eligibility for entry into the final offline hackathon.",
+        para: "The hackathon follows a two-phase structure. Participants who successfully clear the first online phase will have the opportunity to participate in the subsequent offline hackathon. Problem statements for the first phase will be released on October 22nd. Your performance in this phase will determine your eligibility for entry into the final offline hackathon.",
       },
       {
         heading: "Who's eligible to dive into this hackathon adventure?",
