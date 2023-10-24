@@ -30,7 +30,7 @@ function App() {
                 <Leaderboard
                     backUrl="/sandshores"
                     registerUrl="https://gta-sandshores.devfolio.co/"
-                    leaderboardUrl="https://devfolio.vez.social/rank"
+                    leaderboardUrl="https://dev.mulearn.org/api/v1/get-log/gta-sandshore/"
                 />
             ),
         },
@@ -40,7 +40,7 @@ function App() {
                 <Leaderboard
                     backUrl="/codestorm"
                     registerUrl="https://gta-sandshores.devfolio.co/"
-                    leaderboardUrl="https://devfolio.vez.social/rank"
+                    leaderboardUrl="https://dev.mulearn.org/api/v1/get-log/gta-sandshore/"
                 />
             ),
         },
