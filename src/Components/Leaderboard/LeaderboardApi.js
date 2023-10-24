@@ -7,7 +7,7 @@ export const getLeaderboard = async (setData, url) => {
 				maxBodyLength: Infinity,
 			}
         );
-        const message = response.data;
+        const message = response.data.response;
 		setData(message)
     } catch (err) {
         const error = err;
