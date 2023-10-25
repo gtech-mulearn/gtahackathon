@@ -13,7 +13,6 @@
   justify-content: center;
   margin: 0%;
   margin-bottom: 3vh;
-
 }
 .contentContainer {
   width: 100%;
@@ -40,4 +39,20 @@
   .contentContainer > div {
     width: 80%;
   }
+}
+
+.verticalWrapper .contentContainer a {
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.verticalWrapper .contentContainer a:hover {
+  color: #FFD597;
+  border-color: #FFD597;
+}
+.verticalWrapper .problem{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
