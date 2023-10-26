@@ -31,6 +31,14 @@ const Verticals = () => {
           <a href="">AR / VR</a>
           <a href="">WEBSITE</a> <a href="">APPLICATION</a>
         </div>
+        <div className={styles.submitLink}>
+          <div>
+            <p>Solutions</p>
+          </div>
+          <a href="https://airtable.com/apppADe83MpHBM05J/shrTSIqyz7NeAn57d" target="_blank">
+            Submit
+          </a>
+        </div>
       </div>
     </>
   );
