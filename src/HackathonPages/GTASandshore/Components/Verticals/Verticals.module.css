@@ -58,7 +58,8 @@
 }
 
 .submitLink{
-  margin-top: 30px;
+  margin-top: -20px;
+  margin-bottom: 30px;
   color: white;
   display: flex;
   border: 5px solid white;
