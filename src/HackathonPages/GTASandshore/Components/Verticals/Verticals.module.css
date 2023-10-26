@@ -56,3 +56,29 @@
   gap: 20px;
   flex-wrap: wrap;
 }
+
+.submitLink{
+  margin-top: -20px;
+  margin-bottom: 30px;
+  color: white;
+  display: flex;
+  border: 5px solid white;
+  padding: 0px 0px 0px 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+.submitLink p{
+  padding-right: 20px;
+  margin: 0;
+}
+
+.submitLink a{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  padding:15px 20px;
+  border-radius: 5px 0px 0px 5px;
+  text-decoration: none;
+}
