@@ -43,14 +43,14 @@ const Landing = () => {
       <div className={styles.landingContentWrapper}>
         <div className={styles.contentWrapper}>
           <h3>GTA : SandShores</h3>
-          <h3>Registrations Open!</h3>
+          <h3>Registrations Closed!</h3>
           <p>
             Experience the beach hackathon that you’ve<br></br>never experienced
             before!
           </p>
           <div style={{ display: "flex", gap: "20px" }}>
             <a href="/sandshores">EXPLORE HACKATHON</a>
-            <a href="https://gta-sandshores.devfolio.co/">APPLY NOW</a>
+            {/* <a href="https://gta-sandshores.devfolio.co/">APPLY NOW</a> */}
           </div>
         </div>
       </div>
