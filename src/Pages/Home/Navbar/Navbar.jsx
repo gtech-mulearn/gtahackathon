@@ -74,7 +74,7 @@ const Navbar = () => {
           href="https://gta-sandshores.devfolio.co/"
           className={styles.navRegisterButton}
         >
-          REGISTER
+          REGISTERATION CLOSED
         </a>
       </div>
       <div
@@ -111,7 +111,7 @@ const Navbar = () => {
               href="https://gta-sandshores.devfolio.co/"
               className={styles.navRegisterButton}
             >
-              REGISTER
+              REGISTERATION CLOSED
             </a>
           </div>
         )}
